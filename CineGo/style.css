@@ -1,0 +1,10 @@
+﻿#Login {
+    width: 87px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--font-eb-garamond);
+    color: #131313;
+    text-align: left;
+    display: inline-block;
+}
