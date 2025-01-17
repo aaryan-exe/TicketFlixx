@@ -5,5 +5,8 @@ CREATE TABLE Users (
     UserPassword VARCHAR(255)
 );
 CREATE TABLE MOVIE(
-
+MovieID INT AUTO_INCREMENT PRIMARY KEY,
+MovieName VARCHAR(50),
+PosterURL VARCHAR(255),
+MovieDuration INT
 )
