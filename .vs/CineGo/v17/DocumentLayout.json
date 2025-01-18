@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\cinego\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\cinego\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\cinego\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "CineGo\\WebForm1.aspx.cs",
               "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs",
               "RelativeToolTip": "CineGo\\WebForm1.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T12:12:16.142Z",
               "IsPinned": true,
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
               "RelativeDocumentMoniker": "CineGo\\WebForm1.aspx",
@@ -49,11 +49,12 @@
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-01-17T10:10:53.396Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\style.css",
               "RelativeDocumentMoniker": "CineGo\\style.css",
