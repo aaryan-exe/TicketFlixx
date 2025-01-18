@@ -7,7 +7,7 @@ namespace CineGo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // You can add logic here that needs to run when the page loads
+            // Logic to run on page load (if any)
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -15,9 +15,15 @@ namespace CineGo
             // Connection string
             string ConnectionString = "Data Source=(localdb)\\CineGo;Initial Catalog=CineGo;Integrated Security=True";
 
-            // Example variables (ensure these TextBoxes exist in your form)
-            string username = usernameTextBox.Text;
-            string password = paswoordTextBox.Text; // Assuming this is a typo for 'passwordTextBox'
+            // Retrieve input from textboxes
+            string username = usernameTextBox.Text.Trim();
+            string password = paswoordTextBox.Text.Trim(); // Corrected the typo
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                OutputLabel.Text = "Please enter both username and password.";
+                return;
+            }
 
             try
             {
@@ -26,33 +32,36 @@ namespace CineGo
                 {
                     con.Open();
 
-                    // Prepare the query with parameters to avoid SQL injection
-                    string query = "INSERT INTO userInfo(userName, userPassword) VALUES (@UserName, @UserPassword)";
+                    // Query to check if the username and password match
+                    string query = "SELECT COUNT(*) FROM userInfo WHERE userName = @UserName AND userPassword = @UserPassword";
 
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
-                        // Add parameters
-                        cmd.Parameters.AddWithValue("@UserName", username);
-                        cmd.Parameters.AddWithValue("@UserPassword", password);
+                        // Add parameters to prevent SQL injection
+                        cmd.Parameters.Add(new SqlParameter("@UserName", username));
+                        cmd.Parameters.Add(new SqlParameter("@UserPassword", password));
 
-                        // Execute the query
-                        cmd.ExecuteNonQuery();
+                        // Execute the query and get the result
+                        int count = (int)cmd.ExecuteScalar();
+
+                        if (count > 0)
+                        {
+                            // Success: User exists
+                            OutputLabel.Text = "Login successful!";
+                        }
+                        else
+                        {
+                            // Failure: Invalid credentials
+                            OutputLabel.Text = "Invalid username or password.";
+                        }
                     }
                 }
-
-                // Success message
-                OutputLabel.Text = "User registered successfully!";
             }
             catch (Exception ex)
             {
-                // Display error message
-                OutputLabel.Text = "Error: " + ex.Message;
+                // Handle exceptions gracefully
+                OutputLabel.Text = "An error occurred: " + ex.Message;
             }
-        }
-
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

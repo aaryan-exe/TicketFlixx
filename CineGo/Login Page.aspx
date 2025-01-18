@@ -22,10 +22,10 @@
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Login" Width="75px" OnClick="Button1_Click" />
-        <asp:Button ID="Button2" runat="server" Text="Button" />
         <br />
         <br />
-        Don&#39;t have account ?&nbsp;&nbsp;&nbsp; <asp:Button ID="SignUp" runat="server" OnClick="Button3_Click" Text="Sign Up" />
+        Don&#39;t have account ?&nbsp;&nbsp;&nbsp; 
+       <asp:HyperLink ID="SignUpUrl" runat="server" NavigateUrl="SignUp Page.aspx">Sign Up</asp:HyperLink>
     </form>
 </body>
 </html>
