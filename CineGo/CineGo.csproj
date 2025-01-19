@@ -146,6 +146,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="SignupStyle.css" />
     <Content Include="style.css" />
     <Content Include="Login Page.aspx" />
     <Content Include="SignUp Page.aspx" />
@@ -227,6 +228,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Trial\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

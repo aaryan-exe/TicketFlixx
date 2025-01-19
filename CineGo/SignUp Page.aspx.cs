@@ -34,11 +34,11 @@ namespace CineGo
                 return;
             }
 
-            if (!System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-            {
-                OutputLabel.Text = "Invalid email format.";
-                return;
-            }
+            //if (!System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            //{
+            //    OutputLabel.Text = "Invalid email format.";
+            //    return;
+            //}
 
             try
             {
