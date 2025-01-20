@@ -16,12 +16,14 @@
 </head>
 <body style="height: 355px">
      <div class="parent">
-     <div class="rectangle-div"></div>
+     <div class="rectangle-div">
+        <p class="cinego">CineGo.</p>
+    </div>
      <div class="parent-form">
          <div class="form-div">
              <div class="center-form-div">
                  <form id="form1" runat="server">
-                     <p class="Login">Sign in</p
+                     <p class="Login">Sign in</p>
                      <p class="email">Email</p>
                      <asp:TextBox ID="emailTextBox" runat="server" Width="100%" Height="35px"></asp:TextBox>
                      <br />

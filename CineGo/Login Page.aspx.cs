@@ -52,7 +52,7 @@ namespace CineGo
                         else
                         {
                             // Failure: Invalid credentials
-                            OutputLabel.Text = "Invalid username or password.";
+                            OutputLabel.Text = "*Invalid username or password.";
                         }
                     }
                 }

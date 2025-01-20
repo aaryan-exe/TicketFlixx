@@ -131,7 +131,7 @@ p.Description {
     width: 100%; /* Adjusted width */
     /* max-width: 600px;  Optional: Maximum limit for width */
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: "Nunito", serif;
     color: #333;
     text-align: center; /* Center the text within the element */
@@ -149,7 +149,7 @@ p.Description {
     margin-top: 0px; /* Reduced space between label and input */
     padding: 5px 10px;
     border: 1px solid var(--color-darkslategray);
-    border-radius: var(--br-xs);
+    border-radius: 12px;
     font-size: 16px;
     font-family: "Nunito", serif;
 }
@@ -170,8 +170,9 @@ p.name {
     width: 55px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
+    font-weight: 400;
     color: #333;
     text-align: left;
     /*display: inline-block;*/
@@ -194,7 +195,7 @@ p.email {
     width: 55px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
     text-align: left;
@@ -218,7 +219,7 @@ p.username {
     width: 55px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
     text-align: left;
@@ -242,7 +243,7 @@ p.mobile {
     width: 92px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
     text-align: left;
@@ -267,7 +268,7 @@ p.password {
     width: 55px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
     text-align: left;
@@ -287,14 +288,13 @@ p.password {
     font-size: 16px;
 }
 #OutputLabel {
-    color: red;
+    color: #E50914;
     margin: 4px 0px 4px 0px;
     width: 55px;
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Nunito", serif;
-    color: #333;
     text-align: left;
     /*display: inline-block;*/
 }
@@ -323,3 +323,19 @@ p.endpara {
     text-align: center;
     font-family: "Nunito", serif;
 }
+
+.rectangle-div {
+    position: relative; /* Ensures that child elements use this as a reference for positioning */
+}
+
+    .rectangle-div .cinego {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: white !important; /* Force the color to override any conflicting rules */
+    }
+

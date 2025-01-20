@@ -17,7 +17,9 @@
 </head>
 <body>
     <div class="parent">
-        <div class="rectangle-div"></div>
+        <div class="rectangle-div">
+                <p class="cinego">CineGo.</p>
+            </div>
         <div class="parent-form">
             <div class="form-div">
                 <div class="center-form-div">

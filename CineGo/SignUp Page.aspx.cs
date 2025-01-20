@@ -29,7 +29,7 @@ namespace CineGo
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) ||
                string.IsNullOrEmpty(password) || string.IsNullOrEmpty(mobile))
             {
-                OutputLabel.Text = "All fields are required.";
+                OutputLabel.Text = "*All fields are required.";
                 return;
             }
 
@@ -47,7 +47,7 @@ namespace CineGo
                     con.Open();
 
                     // Check if the username or mobile already exists
-                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE userName = @username OR mobileNumber = @mobile";
+                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR mobileNumber = @mobile";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                     {
                         checkCmd.Parameters.Add(new SqlParameter("@email", email));
@@ -57,13 +57,13 @@ namespace CineGo
 
                         if (count > 0)
                         {
-                            OutputLabel.Text = "Username or mobile number already exists.";
+                            OutputLabel.Text = "*Username or mobile number already exists.";
                             return;
                         }
                     }
 
                     // Prepare the query for inserting a new user
-                    string query1 = "INSERT INTO userInfo(FName, email, userName, mobileNumber, userPassword) VALUES (@name, @email, @username, @mobile, @password)";
+                    string query1 = "INSERT INTO userInfo(FName, email, mobileNumber, userPassword) VALUES (@name, @email, @mobile, @password)";
 
                     using (SqlCommand cmd = new SqlCommand(query1, con))
                     {
