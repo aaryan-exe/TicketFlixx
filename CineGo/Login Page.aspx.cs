@@ -16,12 +16,12 @@ namespace CineGo
             string ConnectionString = "Data Source=(localdb)\\CineGo;Initial Catalog=CineGo;Integrated Security=True";
 
             // Retrieve input from textboxes
-            string username = usernameTextBox.Text.Trim();
-            string password = paswoordTextBox.Text.Trim(); // Corrected the typo
+            string email = emailTextBox.Text.Trim(); // Corrected the typo
+            string password = passwordTextBox.Text.Trim(); // Corrected the typo
 
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                OutputLabel.Text = "Please enter both username and password.";
+                OutputLabel.Text = "Please enter both Email and password.";
                 return;
             }
 
@@ -33,12 +33,12 @@ namespace CineGo
                     con.Open();
 
                     // Query to check if the username and password match
-                    string query = "SELECT COUNT(*) FROM userInfo WHERE userName = @UserName AND userPassword = @UserPassword";
+                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = email AND userPassword = @UserPassword";
 
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
                         // Add parameters to prevent SQL injection
-                        cmd.Parameters.Add(new SqlParameter("@UserName", username));
+                        cmd.Parameters.Add(new SqlParameter("@email", email));
                         cmd.Parameters.Add(new SqlParameter("@UserPassword", password));
 
                         // Execute the query and get the result

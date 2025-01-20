@@ -22,13 +22,12 @@ namespace CineGo
 
             string name = NameTextBox.Text.Trim();
             string email = EmailTextBox.Text.Trim();
-            string username = UsernameTextBox.Text.Trim();
             string password = PasswordTextBox.Text.Trim();
             string mobile = MobileTextBox.Text.Trim();
 
             // Input validation
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) ||
-                string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(mobile))
+               string.IsNullOrEmpty(password) || string.IsNullOrEmpty(mobile))
             {
                 OutputLabel.Text = "All fields are required.";
                 return;
@@ -51,7 +50,7 @@ namespace CineGo
                     string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE userName = @username OR mobileNumber = @mobile";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                     {
-                        checkCmd.Parameters.Add(new SqlParameter("@username", username));
+                        checkCmd.Parameters.Add(new SqlParameter("@email", email));
                         checkCmd.Parameters.Add(new SqlParameter("@mobile", mobile));
 
                         int count = (int)checkCmd.ExecuteScalar();
@@ -71,7 +70,6 @@ namespace CineGo
                         // Add parameters
                         cmd.Parameters.Add(new SqlParameter("@name", name));
                         cmd.Parameters.Add(new SqlParameter("@email", email));
-                        cmd.Parameters.Add(new SqlParameter("@username", username));
                         cmd.Parameters.Add(new SqlParameter("@mobile", mobile));
                         cmd.Parameters.Add(new SqlParameter("@password", password));
 

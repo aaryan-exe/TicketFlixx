@@ -9,6 +9,7 @@
     /* Border radius */
     --br-xs: 12px;
 }
+
 // <uniquifier > : Use a unique and descriptive class name
 // <weight > : Use a value from 200 to 1000
 
@@ -73,10 +74,13 @@ body, html {
     border-radius: var(--br-xs);
     font-size: 14px;
 }
-#form1{
+
+#form1 {
+    width:100%;
     margin: 44px 0px 44px 0px;
     align-content: center;
 }
+
 .form-div {
     align-content: center;
     margin: 120px 0px 120px 0px;
@@ -96,6 +100,7 @@ body, html {
 }
 
 .center-form-div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +120,7 @@ body, html {
     }
 
 
-p.CreateAccount {
+p.Login {
     margin-top: 8px;
     margin-bottom: 8px;
     font-size: 36px;
@@ -127,18 +132,18 @@ p.CreateAccount {
 
 /* Style for the description text */
 /* Description text */
-p.Description {
-    width: 100%; /* Adjusted width */
+/*p.Description {
+    width: 100%;*/ /* Adjusted width */
     /* max-width: 600px;  Optional: Maximum limit for width */
-    font-size: 16px;
+    /*font-size: 16px;
     font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
-    text-align: center; /* Center the text within the element */
-    margin: 0 auto; /* Centers the element itself */
-    margin-bottom: 8px; /* Adds space below the description */
-    display: block; /* Ensure the element is treated as a block for centering */
-}
+    text-align: center;*/ /* Center the text within the element */
+    /*margin: 0 auto;*/ /* Centers the element itself */
+    /*margin-bottom: 8px;*/ /* Adds space below the description */
+    /*display: block;*/ /* Ensure the element is treated as a block for centering */
+/*}*/
 
 
 
@@ -201,7 +206,7 @@ p.email {
     /*display: inline-block;*/
 }
 
-#EmailTextBox {
+#emailTextBox {
     width: 100%;
     font-size: 16px;
     position: relative;
@@ -213,54 +218,6 @@ p.email {
     font-family: "Nunito", serif;
 }
 
-p.username {
-    margin-bottom: 4px;
-    width: 55px;
-    position: relative;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Nunito", serif;
-    color: #333;
-    text-align: left;
-    /*display: inline-block;*/
-}
-
-#UsernameTextBox {
-    width: 100%;
-    position: relative;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 25px;
-    font-family: "Nunito", serif;
-    font-size: 16px;
-}
-
-p.mobile {
-    margin-bottom: 4px;
-    width: 92px;
-    position: relative;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Nunito", serif;
-    color: #333;
-    text-align: left;
-    /*display: inline-block;*/
-}
-
-#MobileTextBox {
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-    position: relative;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 25px;
-    font-family: "Nunito", serif;
-    font-size: 16px;
-}
 
 p.password {
     margin-bottom: 4px;
@@ -274,7 +231,7 @@ p.password {
     /*display: inline-block;*/
 }
 
-#PasswordTextBox {
+#passwordTextBox {
     margin: 0px 0px 0px 0px;
     width: 100%;
     position: relative;
@@ -286,6 +243,7 @@ p.password {
     font-family: "Nunito", serif;
     font-size: 16px;
 }
+
 #OutputLabel {
     color: red;
     margin: 4px 0px 4px 0px;
