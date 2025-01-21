@@ -131,7 +131,7 @@ p.Description {
     width: 100%; /* Adjusted width */
     /* max-width: 600px;  Optional: Maximum limit for width */
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Nunito", serif;
     color: #333;
     text-align: center; /* Center the text within the element */
@@ -148,7 +148,7 @@ p.Description {
     height: 35px;
     margin-top: 0px; /* Reduced space between label and input */
     padding: 5px 10px;
-    border: 1px solid var(--color-darkslategray);
+    border: 0px solid var(--color-darkslategray);
     border-radius: 12px;
     font-size: 16px;
     font-family: "Nunito", serif;
@@ -182,8 +182,8 @@ p.name {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #F1F1F1;
+    border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
@@ -207,8 +207,8 @@ p.email {
     font-size: 16px;
     position: relative;
     border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #F1F1F1;
+    border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
@@ -230,8 +230,8 @@ p.username {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #F1F1F1;
+    border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
@@ -255,8 +255,8 @@ p.mobile {
     width: 100%;
     position: relative;
     border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #F1F1F1;
+    border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
@@ -280,8 +280,8 @@ p.password {
     width: 100%;
     position: relative;
     border-radius: 2px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #F1F1F1;
+    border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
