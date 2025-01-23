@@ -66,17 +66,30 @@ body, html {
 #form1 input {
     width: 300px;
     height: 35px;
-    margin-top: 16px; /* Add space between label and input */
-    margin-bottom: 16px;
+    /*margin-top: 16px;*/ /* Add space between label and input */
+    margin-bottom: 12px;
     padding: 5px 10px;
-    border: 1px solid var(--color-darkslategray);
+    /*    border: 1px solid var(--color-darkslategray);*/
     border-radius: var(--br-xs);
     font-size: 14px;
+    font-family: "Nunito", serif;
 }
-#form1{
+
+
+/* Form input styles */
+/*#form1 input {
+    width: 300px;
+    height: 35px;
+    margin-top: 0px;*/ /* Reduced space between label and input */
+    /*padding: 5px 10px;*/
+    /*    border: 0px solid var(--color-darkslategray);*/
+    /*border-radius: 12px;
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    #form1{
     margin: 44px 0px 44px 0px;
     align-content: center;
-}
+}*/
 .form-div {
     align-content: center;
     margin: 120px 0px 120px 0px;
@@ -142,16 +155,6 @@ p.Description {
 
 
 
-/* Form input styles */
-#form1 input {
-    width: 300px;
-    height: 35px;
-    margin-top: 0px; /* Reduced space between label and input */
-    padding: 5px 10px;
-    border: 0px solid var(--color-darkslategray);
-    border-radius: 12px;
-    font-size: 16px;
-    font-family: "Nunito", serif;
 }
 
 /* Responsive layout */
@@ -183,7 +186,7 @@ p.name {
     position: relative;
     border-radius: 8px;
     background-color: #F1F1F1;
-    border: 0px solid #000;
+    border: 0px solid #D0D0D0;
     box-sizing: border-box;
     height: 25px;
     font-family: "Nunito", serif;
@@ -302,11 +305,11 @@ p.password {
 
 /* Button Default Style */
 .custom-button {
-    background-color: #1d63ff; /* Default background color */
-    color: white; /* Text color */
+    background-color: #fff; /* Default background color 1D63FF */
+    color: #1D63FF; /* Text color */
     font-size: 16px; /* Font size */
     font-weight: bold; /* Bold text */
-    border: none; /* Remove border */
+    border: 2px solid #1D63FF; /* Remove border */
     border-radius: 8px; /* Rounded corners */
     padding: 10px 20px; /* Padding for the button */
     cursor: pointer; /* Pointer cursor for interactivity */
@@ -315,8 +318,10 @@ p.password {
 
     /* Hover Effect */
     .custom-button:hover {
-        background-color: black; /* Change background color to black on hover */
+        color:white;
+        background-color: #1D63FF; /* Change background color to black on hover 
         transform: scale(1.05); /* Slightly enlarge the button on hover */
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     }
 
 p.endpara {
