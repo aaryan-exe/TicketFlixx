@@ -12,46 +12,41 @@ namespace CineGo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            // Connection string
-            string ConnectionString = "Data Source=(localdb)\\CineGo;Initial Catalog=CineGo;Integrated Security=True";
-
             // Retrieve input from textboxes
-            string email = emailTextBox.Text.Trim(); // Corrected the typo
-            string password = passwordTextBox.Text.Trim(); // Corrected the typo
+            string email = emailTextBox.Text.Trim();
+            string password = passwordTextBox.Text.Trim();
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                OutputLabel.Text = "Please enter both Email and password.";
+                OutputLabel.Text = "Please enter both Email and Password.";
                 return;
             }
 
             try
             {
-                // Establish and open a connection
-                using (SqlConnection con = new SqlConnection(ConnectionString))
+                // Use shared connection
+                using (SqlConnection con = DatabaseHelper.GetConnection())
                 {
                     con.Open();
 
-                    // Query to check if the username and password match
-                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = email AND userPassword = @UserPassword";
+                    // Corrected SQL query
+                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = @email AND userPassword = @UserPassword";
 
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
-                        // Add parameters to prevent SQL injection
-                        cmd.Parameters.Add(new SqlParameter("@email", email));
-                        cmd.Parameters.Add(new SqlParameter("@UserPassword", password));
+                        // Add parameters
+                        cmd.Parameters.AddWithValue("@email", email);
+                        cmd.Parameters.AddWithValue("@UserPassword", password);
 
-                        // Execute the query and get the result
+                        // Execute the query
                         int count = (int)cmd.ExecuteScalar();
 
                         if (count > 0)
                         {
-                            // Success: User exists
                             OutputLabel.Text = "Login successful!";
                         }
                         else
                         {
-                            // Failure: Invalid credentials
                             OutputLabel.Text = "*Invalid username or password.";
                         }
                     }
@@ -59,7 +54,6 @@ namespace CineGo
             }
             catch (Exception ex)
             {
-                // Handle exceptions gracefully
                 OutputLabel.Text = "An error occurred: " + ex.Message;
             }
         }
