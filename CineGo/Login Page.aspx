@@ -18,6 +18,11 @@
      <div class="parent">
      <div class="rectangle-div">
         <p class="cinego">CineGo.</p>
+         <video width="640" height="360"  autoplay loop muted>
+    <source src="video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
     </div>
      <div class="parent-form">
          <div class="form-div">
