@@ -44,7 +44,7 @@ namespace CineGo
                         if (count > 0)
                         {
                             OutputLabel.Text = "Login successful!";
-                            Response.Redirect("Home Page/HomePage.aspx");
+                            Response.Redirect("/HomePage/HomePage.aspx");
                         }
                         else
                         {
