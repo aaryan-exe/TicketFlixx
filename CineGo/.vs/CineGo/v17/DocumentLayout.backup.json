@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\login page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:login page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\login page.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:login page.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\home page\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:home page\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\signup page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:signup page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\UserAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,32 +26,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login Page.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx.cs",
-              "RelativeDocumentMoniker": "Login Page.aspx.cs",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx.cs",
-              "RelativeToolTip": "Login Page.aspx.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:07:48.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomePage.aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Home Page\\HomePage.aspx",
-              "RelativeDocumentMoniker": "Home Page\\HomePage.aspx",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Home Page\\HomePage.aspx",
-              "RelativeToolTip": "Home Page\\HomePage.aspx",
+              "DocumentIndex": 0,
+              "Title": "SignUp Page.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeDocumentMoniker": "SignUp Page.aspx",
+              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeToolTip": "SignUp Page.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-03T14:29:25.439Z",
+              "WhenOpened": "2025-02-03T14:35:44.294Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -72,67 +48,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\DatabaseHelper.cs",
-              "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:24:08.408Z",
+              "WhenOpened": "2025-02-04T12:45:06.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login Page.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Login Page.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx.designer.cs",
-              "RelativeToolTip": "Login Page.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\DatabaseHelper.cs",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:07:47.772Z",
+              "WhenOpened": "2025-02-04T12:37:34.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login Page.aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx",
-              "RelativeDocumentMoniker": "Login Page.aspx",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\Login Page.aspx",
-              "RelativeToolTip": "Login Page.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-02T13:07:41.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginStyle.css",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\LoginStyle.css",
-              "RelativeDocumentMoniker": "LoginStyle.css",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\LoginStyle.css",
-              "RelativeToolTip": "LoginStyle.css",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-31T10:25:41.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserAuth.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\UserAuth.cs",
-              "RelativeDocumentMoniker": "UserAuth.cs",
-              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\UserAuth.cs",
-              "RelativeToolTip": "UserAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SignUp Page.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\SignUp Page.aspx.cs",
+              "RelativeDocumentMoniker": "SignUp Page.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\SignUp Page.aspx.cs",
+              "RelativeToolTip": "SignUp Page.aspx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAawDcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T13:06:04.212Z"
+              "WhenOpened": "2025-02-03T14:35:23.404Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -33,11 +33,11 @@ namespace CineGo
                     con.Open();
 
                     // Check if the username or mobile already exists
-                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR mobileNumber = @mobile";
+                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR Mobile = @mobile";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                     {
-                        checkCmd.Parameters.AddWithValue("@email", email);
-                        checkCmd.Parameters.AddWithValue("@mobile", mobile);
+                        checkCmd.Parameters.AddWithValue("@Email", email);
+                        checkCmd.Parameters.AddWithValue("@Mobile", mobile);
 
                         int count = (int)checkCmd.ExecuteScalar();
 
@@ -49,15 +49,15 @@ namespace CineGo
                     }
 
                     // Prepare the query for inserting a new user
-                    string query1 = "INSERT INTO userInfo(FName, email, mobileNumber, userPassword) VALUES (@name, @email, @mobile, @password)";
+                    string query1 = "INSERT INTO userInfo(FName, Email, Mobile, Password) VALUES (@name, @email, @mobile, @password)";
 
                     using (SqlCommand cmd = new SqlCommand(query1, con))
                     {
                         // Add parameters
-                        cmd.Parameters.AddWithValue("@name", name);
-                        cmd.Parameters.AddWithValue("@email", email);
-                        cmd.Parameters.AddWithValue("@mobile", mobile);
-                        cmd.Parameters.AddWithValue("@password", password);
+                        cmd.Parameters.AddWithValue("@Name", name);
+                        cmd.Parameters.AddWithValue("@Email", email);
+                        cmd.Parameters.AddWithValue("@Mobile", mobile);
+                        cmd.Parameters.AddWithValue("@Password", password);
 
                         // Execute the query
                         cmd.ExecuteNonQuery();
