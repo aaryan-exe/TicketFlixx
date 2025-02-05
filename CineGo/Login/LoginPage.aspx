@@ -41,7 +41,7 @@
                      <asp:Label ID="OutputLabel" runat="server"></asp:Label>
                      <br />
                      <br />
-                     <p class="endpara">New user? <a href="/SignUp/SignUpPage.aspx">Log in</a> </p>
+                     <p class="endpara">New user? <a href="/SignUp/SignUpPage.aspx">Sign up</a> </p>
                  </form>
              </div>
          </div>

@@ -45,7 +45,7 @@
                         <asp:Label ID="OutputLabel" runat="server" Text=""></asp:Label>
                         <br />
                         <br />
-                        <p class="endpara">Already a user? <a href="\HomePage\HomePage.aspx">Log in</a>
+                        <p class="endpara">Already a user? <a href="\Login\LoginPage.aspx">Log in</a>
 
                     </form>
                 </div>

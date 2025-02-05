@@ -65,7 +65,7 @@ namespace CineGo
                 }
 
                 // Success message
-                Response.Redirect("Home Page/HomePage.aspx");
+                Response.Redirect("\\HomePage\\HomePage.aspx");
                 OutputLabel.Text = "User registered successfully!";
             }
             catch (SqlException sqlEx)

@@ -30,13 +30,13 @@ namespace CineGo
                     con.Open();
 
                     // Corrected SQL query
-                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = @email AND userPassword = @UserPassword";
+                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = @Email AND password = @Password";
 
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
                         // Add parameters
-                        cmd.Parameters.AddWithValue("@email", email);
-                        cmd.Parameters.AddWithValue("@UserPassword", password);
+                        cmd.Parameters.AddWithValue("@Email", email);
+                        cmd.Parameters.AddWithValue("@Password", password);
 
                         // Execute the query
                         int count = (int)cmd.ExecuteScalar();
