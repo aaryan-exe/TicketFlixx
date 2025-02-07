@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="CineGo.WebForm2" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUpPage.aspx.cs" Inherits="CineGo.WebForm2" %>
 
 
 <!DOCTYPE html>
@@ -45,7 +45,8 @@
                         <asp:Label ID="OutputLabel" runat="server" Text=""></asp:Label>
                         <br />
                         <br />
-                        <p class="endpara">Already a user? <a href="Login Page.aspx">Log in</a> </p>
+                        <p class="endpara">Already a user? <a href="\Login\LoginPage.aspx">Log in</a>
+
                     </form>
                 </div>
             </div>
