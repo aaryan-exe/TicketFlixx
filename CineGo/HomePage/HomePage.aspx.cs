@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace CineGo.HomePage
 {
@@ -12,7 +13,10 @@ namespace CineGo.HomePage
         protected void Page_Load(object sender, EventArgs e)
         {
             nametextbox.Text = Session["uemail"].ToString();
-
+            using (SqlConnection con = DatabaseHelper.GetConnection())
+            {
+                con.Open();
+            }
         }
     }
 }

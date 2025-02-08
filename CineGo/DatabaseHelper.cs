@@ -10,8 +10,8 @@ namespace CineGo
             "Server=tcp:cinego-sql.database.windows.net,1433;" +
             "Initial Catalog=CinegoDatabase;" +
             "Persist Security Info=False;" +
-            "User ID=Aryan;" +  // Replace 'Aryan' with your actual SQL username
-            "Password=Cinego@01;" +  // Replace 'your_password' with your actual password
+            "User ID=Aryan;" + 
+            "Password=Cinego@01;" + 
             "MultipleActiveResultSets=False;" +
             "Encrypt=True;" +
             "TrustServerCertificate=False;" +
