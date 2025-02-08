@@ -12,6 +12,7 @@ namespace CineGo.HomePage
         protected void Page_Load(object sender, EventArgs e)
         {
             nametextbox.Text = Session["uemail"].ToString();
+
         }
     }
 }

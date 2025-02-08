@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:homepage\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\signup\\signuppage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\signup\\signuppage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:signup\\signuppage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|c:\\users\\aryan\\source\\repos\\cinego\\cinego\\login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo.csproj|solutionrelative:login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -66,8 +66,7 @@
               "RelativeToolTip": "SignUp\\SignUpPage.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:47:10.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:47:10.058Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "SignUp\\SignUpPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-08T08:47:06.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:47:06.668Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Login\\LoginPage.aspx.cs",
               "ViewState": "AgIAACkAAAAAAAAAAADgvy4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T18:15:56.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T18:15:56.184Z"
             },
             {
               "$type": "Document",
@@ -103,7 +100,7 @@
               "RelativeDocumentMoniker": "HomePage\\HomePage.aspx.cs",
               "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
               "RelativeToolTip": "HomePage\\HomePage.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T08:44:20.042Z",
               "EditorCaption": ""
@@ -118,8 +115,7 @@
               "RelativeToolTip": "HomePage\\HomePage.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-08T08:43:41.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:43:41.96Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "Login\\LoginPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-07T17:57:22.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T17:57:22.3Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "DatabaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T17:53:59.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T17:53:59.88Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Admin_Panel\\AdminLogin.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:28:48.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T13:28:48.863Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Admin_Panel\\AdminLogin.css",
               "ViewState": "AgIAAOYAAAAAAAAAAAAiwCgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-05T13:25:50.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T13:25:50.627Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "Admin_Panel\\AdminLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-05T13:24:16.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T13:24:16.938Z"
             }
           ]
         }
