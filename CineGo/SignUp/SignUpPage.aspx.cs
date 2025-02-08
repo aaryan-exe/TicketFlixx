@@ -43,6 +43,7 @@ namespace CineGo
 
                         if (count > 0)
                         {
+                            
                             OutputLabel.Text = "*Username or mobile number already exists.";
                             return;
                         }
@@ -65,6 +66,7 @@ namespace CineGo
                 }
 
                 // Success message
+                Session["uemail"] = EmailTextBox.Text;
                 Response.Redirect("\\HomePage\\HomePage.aspx");
                 OutputLabel.Text = "User registered successfully!";
             }

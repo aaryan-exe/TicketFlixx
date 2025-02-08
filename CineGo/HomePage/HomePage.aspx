@@ -1,16 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="CineGo.Home_Page.HomePage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="CineGo.HomePage.WebForm1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Home Page</title>
+    <title></title>
 </head>
 <body>
-    <h1>Home Page</h1>
-    <!-- <form id="form1" runat="server">
+    <form id="form1" runat="server">
         <div>
         </div>
-    </form> -->
+        <asp:Label ID="nametextbox" runat="server" Text="Label"></asp:Label>
+    </form>
 </body>
 </html>

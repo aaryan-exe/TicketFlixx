@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CineGo.Home_Page
+namespace CineGo.HomePage
 {
-    public partial class HomePage : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            nametextbox.Text = Session["uemail"].ToString();
         }
     }
 }
