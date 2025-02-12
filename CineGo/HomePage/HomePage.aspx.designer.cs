@@ -24,12 +24,21 @@ namespace CineGo.HomePage
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// nametextbox control.
+        /// WelcomeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nametextbox;
+        protected global::System.Web.UI.WebControls.Label WelcomeLabel;
+
+        /// <summary>
+        /// GreetLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GreetLabel;
     }
 }

@@ -33,7 +33,8 @@ namespace CineGo
                     con.Open();
 
                     // Check if the username or mobile already exists
-                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR Mobile = @mobile";
+                    // Check if the email or mobileNumber already exists
+                    string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR mobileNumber = @mobile";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                     {
                         checkCmd.Parameters.AddWithValue("@Email", email);
@@ -43,14 +44,13 @@ namespace CineGo
 
                         if (count > 0)
                         {
-                            
                             OutputLabel.Text = "*Username or mobile number already exists.";
                             return;
                         }
                     }
 
                     // Prepare the query for inserting a new user
-                    string query1 = "INSERT INTO userInfo(FName, Email, Mobile, Password) VALUES (@name, @email, @mobile, @password)";
+                    string query1 = "INSERT INTO userInfo(FName, Email, mobileNumber, UserPassword) VALUES (@name, @email, @mobile, @password)";
 
                     using (SqlCommand cmd = new SqlCommand(query1, con))
                     {
@@ -63,6 +63,7 @@ namespace CineGo
                         // Execute the query
                         cmd.ExecuteNonQuery();
                     }
+
                 }
 
                 // Success message
