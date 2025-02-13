@@ -238,8 +238,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="HomePage\HomePage.aspx" />
-    <Content Include="Images\background 2.jpg" />
-    <Content Include="Images\Background.jpg" />
+    <Content Include="Images\background2..jpg" />
+    <Content Include="Images\background4.jpg" />
+    <Content Include="Images\backgrou.jpg" />
     <Content Include="Images\ValorantWallpaper_Singularity_galleryimage.jpg" />
     <Content Include="Lander\Lander.aspx" />
     <Content Include="Lander\Lander.css" />
