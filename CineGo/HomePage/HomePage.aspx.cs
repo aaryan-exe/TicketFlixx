@@ -12,11 +12,19 @@ namespace CineGo.HomePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GreetLabel.Text = Session["uemail"].ToString();
-            using (SqlConnection con = DatabaseHelper.GetConnection())
+            if (Session["uemail"] == null)
             {
-                con.Open();
+                Response.Redirect("/Login/LoginPage.aspx");
             }
+            else
+            {
+                GreetLabel.Text = Session["uemail"].ToString();
+                using (SqlConnection con = DatabaseHelper.GetConnection())
+                {
+                    con.Open();
+                }
+            }
+                
         }
     }
 }
