@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,7 +21,7 @@
     <div class="home-parent">
         <div class="home"><a href="Home.aspx">Home</a></div>
         <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
-        <div class="movies"><a href="About.aspx">About Us</a></div>
+        <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
     </div>
     <div class="auth-buttons">
         <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" />
@@ -32,8 +35,29 @@
             <p>Book tickets for the latest releases with ease.</p>
             <asp:Button runat="server" Text="Explore" Width="140px" Height="" CssClass="custom-button" />
         </div>
-        
-        <div class="slideshow-container">
+        <!-- Featured Movies Section -->
+<div class="featured">
+    <h2>Seamless Booking, Just a Few Clicks Away! 🎟️✨</h2>
+    <div class="featured-container">
+        <div class="movie">
+            <img src="/Images/Pic1.png" alt="Movie 1"/>
+            <h3>Choose Your Movie</h3>
+            <p>Browse through the latest blockbusters and pick the one that excites you the most!</p>
+        </div>
+        <div class="movie">
+            <img src="/Images/Pic3.png" alt="Movie 2"/>
+            <h3> Select Your Seats</h3>
+            <p>Get the best view by choosing your preferred seats—front row thrill or cozy back seats, it's your call!</p>
+        </div>
+        <div class="movie">
+            <img src="/Images/Pic2.png" alt="Movie 3"/>
+            <h3>Make Payment & Enjoy!</h3>
+            <p>Complete your booking with a secure and hassle-free payment. Now, sit back, relax, and get ready for an amazing movie experience! 🍿🎬</p>
+        </div>
+    </div>
+</div>
+
+      <!--  <div class="slideshow-container">
     <div class="slide fade">
         <img src="/Images/backgrou.jpg" alt="Slide 1"/>
         <p>text1</p>
@@ -46,7 +70,7 @@
         <img src="/Images/ValorantWallpaper_Singularity_galleryimage.jpg" alt="Slide 3"/>
         <p>text3</p>
     </div>
-</div>
+</div> -->  
 
 
         <div class="Main">

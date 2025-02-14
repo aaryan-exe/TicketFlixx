@@ -212,6 +212,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs\About.aspx" />
+    <Content Include="AboutUs\AboutStyle.css" />
     <Content Include="Admin_Panel\AdminLogin.aspx" />
     <Content Include="Admin_Panel\AdminLogin.css" />
     <Content Include="App_Data\Database1.mdf" />
@@ -241,6 +243,9 @@
     <Content Include="Images\background2..jpg" />
     <Content Include="Images\background4.jpg" />
     <Content Include="Images\backgrou.jpg" />
+    <Content Include="Images\Pic1.png" />
+    <Content Include="Images\Pic2.png" />
+    <Content Include="Images\Pic3.png" />
     <Content Include="Images\ValorantWallpaper_Singularity_galleryimage.jpg" />
     <Content Include="Lander\Lander.aspx" />
     <Content Include="Lander\Lander.css" />
@@ -311,6 +316,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin_Panel\AdminLogin.aspx.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
