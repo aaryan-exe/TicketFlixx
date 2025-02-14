@@ -14,21 +14,46 @@
 <body>
     <form id="form1" runat="server">
         <div class="navigation">
-            <div class="logo">Cinego</div>
-            <div class="home-parent">
-                <div class="home"><a href="Home.aspx">Home</a></div>
-                <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
-                <div class="movies"><a href="About.aspx">About Us</a></div>
-            </div>
-        </div>
+    <div class="logo">CineGo</div>
+    <div class="home-parent">
+        <div class="home"><a href="Home.aspx">Home</a></div>
+        <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
+        <div class="movies"><a href="About.aspx">About Us</a></div>
+    </div>
+    <div class="auth-buttons">
+        <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" />
+    </div>
+</div>
+
 
         <!-- Hero Section -->
         <div class="hero-section">
             <h1>Experience Movies Like Never Before!</h1>
             <p>Book tickets for the latest releases with ease.</p>
-             <asp:Button runat="server" Text="Book Tickets" Width="140px" Height="" CssClass="custom-button" />
+            <asp:Button runat="server" Text="Explore" Width="140px" Height="" CssClass="custom-button" />
         </div>
+        
+        <div class="slideshow-container">
+    <div class="slide fade">
+        <img src="/Images/backgrou.jpg" alt="Slide 1"/>
+        <p>text1</p>
+    </div>
+    <div class="slide fade">
+        <img src="/Images/background4.jpg" alt="Slide 2"/>
+        <p>text2</p>
+    </div>
+    <div class="slide fade">
+        <img src="/Images/ValorantWallpaper_Singularity_galleryimage.jpg" alt="Slide 3"/>
+        <p>text3</p>
+    </div>
+</div>
 
+
+        <div class="Main">
+            <div class="MainContainer">
+                <p>Welcome to CineGo, your one-stop destination for hassle-free movie ticket booking! Explore the latest blockbusters, choose your preferred showtime, and reserve your seats with just a few clicks. Enjoy a seamless experience with secure payments, instant e-ticket generation, and exclusive movie deals. Book now and never miss out on your favorite films! 🎬🍿</p>
+            </div>
+        </div>
     </form>
 </body>
 </html>
