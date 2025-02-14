@@ -29,8 +29,6 @@
              <asp:Button runat="server" Text="Book Tickets" Width="140px" Height="" CssClass="custom-button" />
         </div>
 
-        <asp:Image ID="Image1" runat="server" Height="677px" Width="1052px" />
-
     </form>
 </body>
 </html>
