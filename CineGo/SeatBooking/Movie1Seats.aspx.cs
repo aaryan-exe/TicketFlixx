@@ -48,7 +48,7 @@ namespace CineGo.SeatBooking
 
         protected void Seat_Click(object sender, EventArgs e)
         {
-            for (int i = 1; i <= 45; i++)
+            for (int i = 1; i <= 50; i++)
             {
                 Button btn = (Button)FindControl("Seat" + i);
                 if (btn != null && sender == btn)
