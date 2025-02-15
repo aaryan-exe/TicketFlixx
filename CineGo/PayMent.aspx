@@ -1,15 +1,172 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PayMent.aspx.cs" Inherits="CineGo.WebForm4" %>
 
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Payment - CineGo</title>
+    <style>
+        body {
+            font-family: "Bricolage Grotesque", sans-serif;
+            background-color: #FAF6F3;
+            color: #313131;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .payment-container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 400px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            position: relative;
+            animation: fadeIn 0.5s ease-in-out;
+        }
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: #D72638;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .movie-details {
+            font-size: 18px;
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #F8E1E3;
+            border-radius: 6px;
+        }
+
+        .payment-method, .card-details, .upi-details {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 15px;
+            color: #313131;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #A6192E;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background-color: #fff;
+            outline: none;
+        }
+
+        input:focus, select:focus {
+            border-color: #D72638;
+            box-shadow: 0px 0px 5px rgba(215, 38, 56, 0.3);
+        }
+
+        .pay-btn {
+            background: #D72638;
+            color: white;
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .pay-btn:hover {
+            background: #A6192E;
+            transform: scale(1.05);
+        }
+
+        .upi-details {
+            display: none;
+        }
+
+        .secure-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .secure-icon img {
+            width: 18px;
+            height: 18px;
+            margin-right: 6px;
+        }
+    </style>
+    <script>
+        function togglePaymentFields() {
+            let paymentMethod = document.getElementById("payment").value;
+            let cardDetails = document.getElementById("card-details");
+            let upiDetails = document.getElementById("upi-details");
+
+            if (paymentMethod === "UPI") {
+                cardDetails.style.display = "none";
+                upiDetails.style.display = "block";
+            } else {
+                cardDetails.style.display = "block";
+                upiDetails.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="payment-container">
+            <h2>Complete Your Payment</h2>
+            <div class="movie-details">
+                <asp:Label ID="lblMovieTitle" runat="server" Text="Loading movie details..." />
+            </div>
+            <div class="payment-method">
+                <label for="payment">Payment Method:</label>
+                <select id="payment" onchange="togglePaymentFields()">
+                    <option>Credit Card</option>
+                    <option>Debit Card</option>
+                    <option>UPI</option>
+                </select>
+            </div>
+            <div id="card-details" class="card-details">
+                <label for="card-number">Card Number:</label>
+                <asp:TextBox ID="txtCardNumber" runat="server" CssClass="input-field" placeholder="1234 5678 9012 3456"></asp:TextBox>
+                <label for="expiry">Expiry Date:</label>
+                <asp:TextBox ID="txtExpiry" runat="server" CssClass="input-field" TextMode="Month"></asp:TextBox>
+                <label for="cvv">CVV:</label>
+                <asp:TextBox ID="txtCVV" runat="server" CssClass="input-field" placeholder="123"></asp:TextBox>
+            </div>
+            <div id="upi-details" class="upi-details">
+                <label for="upi-id">UPI ID:</label>
+                <asp:TextBox ID="txtUPI" runat="server" CssClass="input-field" placeholder="example@upi"></asp:TextBox>
+            </div>
+            <asp:Button ID="btnPay" runat="server" Text="Pay Securely" CssClass="pay-btn" OnClick="btnPay_Click" />
+            <div class="secure-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="Secure" />
+                <span>100% Secure Payment</span>
+            </div>
         </div>
     </form>
 </body>
 </html>
+
+

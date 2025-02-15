@@ -232,15 +232,11 @@ C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Prot
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Tokens.dll
 =======
-C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.AspNet.FriendlyUrls.dll
-C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 >>>>>>> Stashed changes
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.ScriptManager.MSAjax.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.ScriptManager.WebForms.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Newtonsoft.Json.dll
-<<<<<<< Updated upstream
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Buffers.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.ClientModel.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Diagnostics.DiagnosticSource.dll
@@ -296,16 +292,11 @@ C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Text.Encodings.Web.xm
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Text.Json.xml
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.ValueTuple.xml
-=======
-C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Web.Optimization.dll
-C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\WebGrease.dll
->>>>>>> Stashed changes
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\System.Web.Optimization.xml
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Newtonsoft.Json.xml
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Antlr3.Runtime.pdb
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-<<<<<<< Updated upstream
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\cs\Microsoft.Data.SqlClient.resources.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\es\Microsoft.Data.SqlClient.resources.dll
@@ -319,8 +310,6 @@ C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\ru\Microsoft.Data.SqlClient.
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\tr\Microsoft.Data.SqlClient.resources.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-=======
->>>>>>> Stashed changes
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\obj\Debug\CineGo.csproj.AssemblyReference.cache
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\obj\Debug\CineGo.csproj.CoreCompileInputs.cache
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\obj\Debug\CineGo.csproj.Up2Date

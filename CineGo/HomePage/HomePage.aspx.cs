@@ -20,9 +20,9 @@ namespace CineGo.HomePage
 
         private void LoadMovies()
         {
-            var movies = new List<Movie>
+            List<Movie> movies = new List<Movie>
             {
-                new Movie { Title = "Avatar", ImageUrl = "https://www.themoviedb.org/t/p/original/6EiRUJpuoeQPghrs3YNktfnqOVh.jpg", Rating = "7.8" },
+               new Movie { Title = "Avatar", ImageUrl = "https://www.themoviedb.org/t/p/original/6EiRUJpuoeQPghrs3YNktfnqOVh.jpg", Rating = "7.8" },
                 new Movie { Title = "Interstellar", ImageUrl = "https://www.themoviedb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg", Rating = "8.6" },
                 new Movie { Title = "Inception", ImageUrl = "https://www.themoviedb.org/t/p/original/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg", Rating = "8.8" },
                 new Movie { Title = "The Dark Knight", ImageUrl = "https://www.themoviedb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg", Rating = "9.0" },
@@ -40,16 +40,15 @@ namespace CineGo.HomePage
 
         protected void BookNow_Click(object sender, EventArgs e)
         {
-            var button = (System.Web.UI.WebControls.Button)sender;
-            string selectedMovie = button.CommandArgument;
-            Response.Redirect("Booking.aspx?movie=" + selectedMovie);
+            string movieName = ((System.Web.UI.WebControls.Button)sender).CommandArgument;
+            Response.Write("<script>alert('Booking for " + movieName + " initiated!');</script>");
         }
-    }
 
-    public class Movie
-    {
-        public string Title { get; set; }
-        public string ImageUrl { get; set; }
-        public string Rating { get; set; }
+        public class Movie
+        {
+            public string Title { get; set; }
+            public string ImageUrl { get; set; }
+            public string Rating { get; set; }
+        }
     }
 }
