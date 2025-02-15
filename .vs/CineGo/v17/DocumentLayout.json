@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -37,6 +38,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\SignUp Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+=======
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -60,7 +73,11 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "WebForm1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs",
@@ -72,19 +89,31 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
               "ToolTip": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
               "RelativeToolTip": "..\\..\\..\\..\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
+<<<<<<< Updated upstream
+=======
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-01-17T10:10:53.396Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\style.css",
               "RelativeDocumentMoniker": "CineGo\\style.css",
@@ -98,6 +127,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "PayMent.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\PayMent.aspx",
               "RelativeDocumentMoniker": "CineGo\\PayMent.aspx",
@@ -119,11 +149,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T18:10:39.614Z",
+=======
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Global.asax.cs",
+              "RelativeDocumentMoniker": "CineGo\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Global.asax.cs",
+              "RelativeToolTip": "CineGo\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T04:53:35.262Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "HomePage.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
               "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
@@ -145,6 +186,16 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-02-15T18:06:51.729Z",
+=======
+              "Title": "SignUp Page.aspx",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SignUp Page.aspx",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeToolTip": "CineGo\\SignUp Page.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-04T04:53:27.034Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -153,6 +204,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "AdminLogin.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Admin_Panel\\AdminLogin.aspx",
@@ -200,13 +252,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Login Page.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx",
               "RelativeDocumentMoniker": "CineGo\\Login Page.aspx",
               "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx",
               "RelativeToolTip": "CineGo\\Login Page.aspx",
+<<<<<<< Updated upstream
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-02-04T05:05:03.446Z"
+=======
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-04T04:49:02.562Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }
