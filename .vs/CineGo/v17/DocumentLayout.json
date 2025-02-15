@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\signup page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\signup\\signuppage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\signup\\signuppage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\SignUp Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\login\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -13,20 +25,20 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\login page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\LoginStyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\LoginStyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\Login Page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CineGo\\Login Page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +52,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WebForm1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx.cs",
@@ -52,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\aryan\\source\\repos\\CineGo\\CineGo\\WebForm1.aspx",
@@ -82,19 +94,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignUp Page.aspx",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
-              "RelativeDocumentMoniker": "CineGo\\SignUp Page.aspx",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
-              "RelativeToolTip": "CineGo\\SignUp Page.aspx",
+              "Title": "SignUpPage.aspx",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SignUp\\SignUpPage.aspx",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx",
+              "RelativeToolTip": "CineGo\\SignUp\\SignUpPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-04T05:16:01.801Z",
+              "WhenOpened": "2025-02-07T11:57:52.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LoginStyle.css",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginStyle.css",
+              "RelativeDocumentMoniker": "CineGo\\Login\\LoginStyle.css",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginStyle.css",
+              "RelativeToolTip": "CineGo\\Login\\LoginStyle.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-07T11:57:29.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.aspx",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginPage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\Login\\LoginPage.aspx",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginPage.aspx",
+              "RelativeToolTip": "CineGo\\Login\\LoginPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-07T11:57:26.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp Page.aspx",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SignUp Page.aspx",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp Page.aspx",
+              "RelativeToolTip": "CineGo\\SignUp Page.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-04T05:16:01.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginStyle.css",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\LoginStyle.css",
               "RelativeDocumentMoniker": "CineGo\\LoginStyle.css",
@@ -106,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Login Page.aspx.cs",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx.cs",
               "RelativeDocumentMoniker": "CineGo\\Login Page.aspx.cs",
@@ -118,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Login Page.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login Page.aspx",
               "RelativeDocumentMoniker": "CineGo\\Login Page.aspx",
