@@ -27,6 +27,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
+            <div class="navigation">
+<div class="logo">CineGo</div>
+<div class="home-parent">
+    <div class="home"><a href="Home.aspx">Home</a></div>
+    <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
+    <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
+</div>
+                </div>
         <div class="heading">
             <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
         </div>
@@ -97,6 +105,7 @@
                 <asp:Button ID="Button52" runat="server" Text="52" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
             </div>
         </div>
+        <asp:Label ID="lblSelectedSeats" runat="server" Text="Label"></asp:Label>
 
     </form>
 
