@@ -30,7 +30,7 @@ namespace CineGo
                     con.Open();
 
                     // Corrected SQL query
-                    string query = "SELECT COUNT(*) FROM userInfo WHERE email = @Email AND password = @Password";
+                    string query = "SELECT COUNT(*) FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
 
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
@@ -44,6 +44,7 @@ namespace CineGo
                         if (count > 0)
                         {
                             OutputLabel.Text = "Login successful!";
+                            Session["uemail"] = emailTextBox.Text;
                             Response.Redirect("/HomePage/HomePage.aspx");
                         }
                         else
