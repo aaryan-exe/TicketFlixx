@@ -27,7 +27,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 24px;
+/*            padding: 0 24px;*/
             background-color: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(12px);
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -35,12 +35,14 @@
         }
 
         .logo {
+            margin-left:20px;
             font-size: 26px;
             font-weight: 700;
             color: #D72638;
         }
 
         .nav-links {
+            margin-right: 20px;
             display: flex;
             gap: 24px;
         }
@@ -91,6 +93,7 @@
             font-size: 18px;
             color: #FFD700;
             margin-top: 5px;
+            margin-bottom: 15px;
         }
 
         /* Buttons */
@@ -127,7 +130,7 @@
 
         <!-- Navigation Bar -->
         <nav class="navigation">
-            <div class="logo">🎬 CineGo</div>
+            <div class="logo">CineGo</div>
             <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="#">Movies</a>
