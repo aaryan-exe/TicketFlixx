@@ -190,7 +190,7 @@
                         <img src='<%# Eval("ImageUrl") %>' alt='<%# Eval("Title") %>' />
                         <h3><%# Eval("Title") %></h3>
                         <div class="rating">⭐ <%# Eval("Rating") %>/10</div>
-                        <asp:Button CssClass="book-btn" runat="server" Text="Book Now" CommandArgument='<%# Eval("Title") %>' OnClick="BookNow_Click" />
+                        <asp:Button CssClass="book-btn" runat="server" Text="Book Now" PostBackUrl='<%# "MovieDetails.aspx?title=" + Eval("Title") %>' />
                     </div>
                 </ItemTemplate>
             </asp:Repeater>
