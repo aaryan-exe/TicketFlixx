@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #FAF6F3;
+    background-color: #FAF8F6;
     margin: 0;
     padding: 0; /* Remove extra space */
 }
@@ -111,7 +111,8 @@ body {
     }
 
     .aboutme p {
-        font-size:18px;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 18px;
         color: #555;
         line-height: 1.6;
         text-align: justify;
