@@ -24,7 +24,7 @@
         <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
     </div>
     <div class="auth-buttons">
-        <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" />
+        <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" OnClick="btnSignIn_Click" />
     </div>
 </div>
 

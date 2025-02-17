@@ -30,7 +30,7 @@
             <div class="navigation">
 <div class="logo">CineGo</div>
 <div class="home-parent">
-    <div class="home"><a href="Home.aspx">Home</a></div>
+    <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
     <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
     <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
 </div>
@@ -44,8 +44,10 @@
                 <img id="interImage" src="/Images/InterstellarPoster.jpg" width="300" height="400px" alt="Movie 1" />
             </div>
 
+            <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />
+
             <!-- Seat Selection Section (Center) -->
-            <div class="seat-container">
+          <!--  <div class="seat-container">
                 <asp:Button ID="Seat1" runat="server" Text="1" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Seat2" runat="server" Text="2" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Seat3" runat="server" Text="3" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
@@ -103,9 +105,9 @@
                 <asp:Button ID="Button50" runat="server" Text="50" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Button51" runat="server" Text="51" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Button52" runat="server" Text="52" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
-                <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />
+                
             </div>
-        </div>
+        </div> -->
         <asp:Label ID="lblSelectedSeats" runat="server" Text="Label"></asp:Label>
 
     </form>

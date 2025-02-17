@@ -33,12 +33,12 @@ namespace CineGo.HomePage
         protected global::System.Web.UI.WebControls.Button btnSignIn;
 
         /// <summary>
-        /// MovieRepeater control.
+        /// btnInterstellar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater MovieRepeater;
+        protected global::System.Web.UI.WebControls.Button btnInterstellar;
     }
 }
