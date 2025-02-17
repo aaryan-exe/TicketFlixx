@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\aboutus\\aboutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\aboutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\lander\\lander.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\lander\\lander.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\lander\\lander.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\lander\\lander.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\lander\\lander.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\lander\\lander.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,48 +46,87 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AboutStyle.css",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\AboutStyle.css",
-              "RelativeDocumentMoniker": "CineGo\\AboutUs\\AboutStyle.css",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\AboutStyle.css",
-              "RelativeToolTip": "CineGo\\AboutUs\\AboutStyle.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-16T15:19:05.444Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\About.aspx",
-              "RelativeDocumentMoniker": "CineGo\\AboutUs\\About.aspx",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\About.aspx",
-              "RelativeToolTip": "CineGo\\AboutUs\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-16T15:18:43.205Z",
+              "Title": "SQLQuery6.sql ",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\SQLQuery6.sql",
+              "RelativeDocumentMoniker": "SQLQuery6.sql",
+              "ToolTip": "SQLQuery6.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-17T12:08:06.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Movie1Seats.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:47:29.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movie1Seats.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T11:45:32.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie1Seat.css",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seat.css",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
+              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seat.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-17T11:45:27.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T11:41:24.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Lander.css",
               "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Lander\\Lander.css",
               "RelativeDocumentMoniker": "CineGo\\Lander\\Lander.css",
               "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Lander\\Lander.css",
               "RelativeToolTip": "CineGo\\Lander\\Lander.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-16T15:08:19.938Z"
+              "WhenOpened": "2025-02-17T11:27:47.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Lander.aspx",
               "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Lander\\Lander.aspx",
               "RelativeDocumentMoniker": "CineGo\\Lander\\Lander.aspx",
@@ -79,19 +134,8 @@
               "RelativeToolTip": "CineGo\\Lander\\Lander.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-16T15:08:18.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": ".aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\.aspx",
-              "RelativeDocumentMoniker": "CineGo\\.aspx",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\.aspx",
-              "RelativeToolTip": "CineGo\\.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T18:06:51.729Z"
+              "WhenOpened": "2025-02-16T15:08:18.735Z",
+              "EditorCaption": ""
             }
           ]
         }

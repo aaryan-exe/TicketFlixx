@@ -19,7 +19,7 @@
         <div class="navigation">
     <div class="logo">CineGo</div>
     <div class="home-parent">
-        <div class="home"><a href="Home.aspx">Home</a></div>
+        <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
         <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
         <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
     </div>
@@ -35,6 +35,7 @@
             <p>Book tickets for the latest releases with ease.</p>
             <asp:Button runat="server" Text="Explore" Width="140px" Height="" CssClass="custom-button" />
         </div>
+
         <!-- Featured Movies Section -->
 <div class="featured">
     <h2>Seamless Booking, Just a Few Clicks Away! 🎟️✨</h2>

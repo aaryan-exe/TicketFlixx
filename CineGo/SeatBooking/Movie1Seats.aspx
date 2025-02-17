@@ -103,6 +103,7 @@
                 <asp:Button ID="Button50" runat="server" Text="50" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Button51" runat="server" Text="51" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
                 <asp:Button ID="Button52" runat="server" Text="52" CssClass="seat-button" OnClientClick="toggleSeat(this); return false;" />
+                <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />
             </div>
         </div>
         <asp:Label ID="lblSelectedSeats" runat="server" Text="Label"></asp:Label>

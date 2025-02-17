@@ -18,45 +18,86 @@
         }
 
         /* Navigation Bar */
-        .navigation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-/*            padding: 0 24px;*/
-            background-color: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(12px);
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-        }
+.navigation {
+    position: fixed; /* Keep it fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
-        .logo {
-            margin-left:20px;
-            font-size: 26px;
-            font-weight: 700;
-            color: #D72638;
-        }
+.auth-buttons {
+    margin-right: 30px;
+}
 
-        .nav-links {
-            margin-right: 20px;
-            display: flex;
-            gap: 24px;
-        }
+.sign-in-button {
+    margin-right: 20px;
+    background-color: #D72638; /* Crimson Red */
+    color: white;
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-        .nav-links a {
-            text-decoration: none;
-            font-weight: 600;
-            color: #313131;
-            transition: color 0.3s ease;
-        }
+    .sign-in-button:hover {
+        background-color: #A6192E; /* Darker Red */
+        transform: scale(1.05);
+    }
 
-        .nav-links a:hover {
-            color: #D72638;
-        }
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #D72638;
+    font-family: "Bricolage Grotesque", serif;
+}
+
+.home-parent {
+    display: flex;
+    gap: 42px;
+    font-size: 16px;
+    font-family: "Bricolage Grotesque", serif;
+    margin-right: 60px;
+}
+
+    .home-parent a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: inherit;
+    }
+
+.home {
+    font-weight: 600;
+    color: #D72638;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.movies {
+    font-weight: 500;
+    color: #313131;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .home:hover,
+    .movies:hover {
+        color: #A6192E;
+        font-weight: 600;
+    }
 
         /* Movies Section */
         .movies-container {
@@ -129,14 +170,17 @@
     <form id="form1" runat="server">
 
         <!-- Navigation Bar -->
-        <nav class="navigation">
-            <div class="logo">CineGo</div>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">Movies</a>
-                <a href="#">About</a>
-            </div>
-        </nav>
+               <div class="navigation">
+    <div class="logo">CineGo</div>
+    <div class="home-parent">
+        <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
+        <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
+        <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
+    </div>
+    <div class="auth-buttons">
+        <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" />
+    </div>
+</div>
 
         <!-- Movies Section -->
         <div class="movies-container">
