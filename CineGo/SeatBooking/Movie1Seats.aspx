@@ -44,7 +44,7 @@
                 <img id="interImage" src="/Images/InterstellarPoster.jpg" width="300" height="400px" alt="Movie 1" />
             </div>
 
-            <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />
+            <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" AutoPostBack="True" />
 
             <!-- Seat Selection Section (Center) -->
           <!--  <div class="seat-container">

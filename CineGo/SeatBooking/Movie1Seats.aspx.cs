@@ -7,7 +7,7 @@ namespace CineGo.SeatBooking
 {
     public partial class Movie1Seats : System.Web.UI.Page
     {
-        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
+        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -42,7 +42,7 @@ namespace CineGo.SeatBooking
         {
             if (CheckBox1.Checked)
             {
-                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\source\\repos\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
+                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
 
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
