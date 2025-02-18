@@ -37,6 +37,22 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+<<<<<<< Updated upstream
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx.cs",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:52:05.048Z",
+              "EditorCaption": ""
+            },
+            {
+>>>>>>> Stashed changes
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
@@ -50,7 +66,11 @@
               "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAewCwAAADHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-02-18T03:24:29.887Z",
+=======
+              "WhenOpened": "2025-02-17T11:47:29.961Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -74,9 +94,12 @@
               "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx",
               "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
               "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-02-18T03:18:10.703Z",
+=======
+              "WhenOpened": "2025-02-17T11:45:32.321Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -89,12 +112,30 @@
               "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seat.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-02-18T03:18:09.122Z",
+=======
+              "WhenOpened": "2025-02-17T11:45:27.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T11:41:24.313Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< Updated upstream
               "Title": "About.aspx.cs",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\AboutUs\\About.aspx.cs",
               "RelativeDocumentMoniker": "CineGo\\AboutUs\\About.aspx.cs",
@@ -103,6 +144,16 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAMwBIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T17:08:00.633Z",
+=======
+              "Title": "Lander.css",
+              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Lander\\Lander.css",
+              "RelativeDocumentMoniker": "CineGo\\Lander\\Lander.css",
+              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Lander\\Lander.css",
+              "RelativeToolTip": "CineGo\\Lander\\Lander.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-17T11:27:47.98Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
