@@ -15,13 +15,13 @@ namespace CineGo
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// btnSignIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.Button btnSignIn;
 
         /// <summary>
         /// MainContent control.
