@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\homepage\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\cinego\\aboutus\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,93 +14,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-<<<<<<< Updated upstream
-=======
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomePage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
-              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:52:05.048Z",
-              "EditorCaption": ""
-            },
-            {
->>>>>>> Stashed changes
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Movie1Seats.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAewCwAAADHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-02-18T03:24:29.887Z",
-=======
-              "WhenOpened": "2025-02-17T11:47:29.961Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomePage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
-              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T03:24:13.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Movie1Seats.aspx",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-02-18T03:18:10.703Z",
-=======
-              "WhenOpened": "2025-02-17T11:45:32.321Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Movie1Seat.css",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
-              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seat.css",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
-              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seat.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-02-18T03:18:09.122Z",
-=======
-              "WhenOpened": "2025-02-17T11:45:27.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HomePage.aspx",
               "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
               "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
@@ -128,45 +30,7 @@
               "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-17T11:41:24.313Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-<<<<<<< Updated upstream
-              "Title": "About.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\AboutUs\\About.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\AboutUs\\About.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\AboutUs\\About.aspx.cs",
-              "RelativeToolTip": "CineGo\\AboutUs\\About.aspx.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T17:08:00.633Z",
-=======
-              "Title": "Lander.css",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Lander\\Lander.css",
-              "RelativeDocumentMoniker": "CineGo\\Lander\\Lander.css",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Lander\\Lander.css",
-              "RelativeToolTip": "CineGo\\Lander\\Lander.css",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-17T11:27:47.98Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\AboutUs\\About.aspx",
-              "RelativeDocumentMoniker": "CineGo\\AboutUs\\About.aspx",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\AboutUs\\About.aspx",
-              "RelativeToolTip": "CineGo\\AboutUs\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-17T17:07:57.743Z",
+              "WhenOpened": "2025-02-18T03:30:21.097Z",
               "EditorCaption": ""
             }
           ]
