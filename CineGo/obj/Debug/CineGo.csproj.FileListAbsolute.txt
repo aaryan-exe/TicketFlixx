@@ -230,8 +230,6 @@ C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Logg
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Protocols.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.IdentityModel.Tokens.dll
-=======
->>>>>>> Stashed changes
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.ScriptManager.MSAjax.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.ScriptManager.WebForms.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.Web.Infrastructure.dll
