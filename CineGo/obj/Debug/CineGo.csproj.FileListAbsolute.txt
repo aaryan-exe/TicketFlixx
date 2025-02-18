@@ -208,7 +208,6 @@ C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\roslyn\vbc.rsp
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\roslyn\VBCSCompiler.exe
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Antlr3.Runtime.dll
-<<<<<<< Updated upstream
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Azure.Core.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Azure.Identity.dll
 C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\bin\Microsoft.AspNet.FriendlyUrls.dll

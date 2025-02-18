@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
+  "WorkspaceRootPath": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomePage.aspx",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
-              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
-              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
+              "Title": "Movie1Seats.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-18T03:30:21.097Z",
+              "WhenOpened": "2025-02-18T13:19:58.68Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie1Seat.css",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seat.css",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seat.css",
+              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seat.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-18T13:19:57.796Z"
             }
           ]
         }
