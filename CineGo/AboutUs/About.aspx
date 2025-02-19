@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-        <link type="text/css" rel="stylesheet" href="AboutStyle.css" />
+        <link type="text/css" rel="stylesheet" href="/AboutUs/AboutStyle.css" />
         <!-- Font 1 -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

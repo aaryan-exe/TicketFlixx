@@ -14,7 +14,7 @@
     font-style: normal;
 }
 body {
-    background-color: #202226;
+    background-color: #0E0D13;
     margin: 0;
     padding: 0; /* Remove extra space */
 }
@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    background-color: rgba(32, 34, 38, 0.8);
+    background-color: rgba(14, 13, 19, 0.8);
     backdrop-filter: blur(12px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -192,7 +192,7 @@ about {
 
 .Seamless {
     font-family font-family: "Bricolage Grotesque", serif;
-    background-color: #202226;
+    background-color: #0E0D13;
     align-content: center;
     text-align: center;
     width: 100%;
@@ -207,7 +207,7 @@ about {
 .process1-container {
     display: flex;
     align-items: center;
-    background-color: #202226;
+    background-color: #0E0D13;
     padding: 20px;
     border-radius: 10px;
     gap: 20px; /* Adds space between image and text */
@@ -222,7 +222,7 @@ about {
 }
 
 .text-container1 {
-    background: rgba(255, 255, 255, 0.1);
+    background: #1A1826;
     padding: 70px;
     border-radius: 28px;
     max-width: 550px;
@@ -251,7 +251,7 @@ about {
     margin: 32px 0px 32px 0px;
     display: flex;
     align-items: center;
-    background-color: #202226;
+    background-color: #0E0D13;
     padding: 20px;
     border-radius: 10px;
     gap: 20px; /* Adds space between image and text */
@@ -259,7 +259,7 @@ about {
 }
 
 .text-container2 {
-    background: rgba(255, 255, 255, 0.1);
+    background: #1A1826;
     padding: 70px;
     border-radius: 28px;
     max-width: 550px;
@@ -284,7 +284,7 @@ about {
 
 .image2 img {
     margin-left: 20px;
-    width: 425px; /* Adjust image size */
+    width: 500px; /* Adjust image size */
     height: 251px;
     background: none; /* Ensures no background */
 }
@@ -293,7 +293,7 @@ about {
 .process3-container {
     display: flex;
     align-items: center;
-    background-color: #202226;
+    background-color: #0E0D13;
     padding: 20px;
     border-radius: 10px;
     gap: 20px; /* Adds space between image and text */
@@ -303,18 +303,19 @@ about {
 .image3 img {
     margin-left: 20px;
     width: 425px; /* Adjust image size */
-    height: 251px;
+    height: 300px;
     background: none; /* Ensures no background */
 }
 
 .text-container3 {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 70px;
     border-radius: 28px;
+    border: 1px solid #7A63F9;
+    background: radial-gradient(67.52% 57.91% at 50% 50%, rgba(29, 27, 43, 0.20) 0%, rgba(99, 91, 144, 0.30) 100%);
+    padding: 70px;
     max-width: 550px;
-    border: solid #7A63F9 1px;
-    margin-left: 100px
+    margin-left: 100px;
 }
+
 
     /* Style text inside the container */
     .text-container3 h2 {
