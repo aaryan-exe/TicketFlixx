@@ -6,8 +6,15 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+.dm-sans-<uniquifier > {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
 body {
-    background-color: #FAF8F6;
+    background-color: #202226;
     margin: 0;
     padding: 0; /* Remove extra space */
 }
@@ -22,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(32, 34, 38, 0.8);
     backdrop-filter: blur(12px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -34,11 +41,11 @@ body {
 
 .sign-in-button {
     margin-right: 20px;
-    background-color: #D72638; /* Crimson Red */
+    background-color: #7A63F9; /* Crimson Red */
     color: white;
-    font-family: "Geist", sans-serif;
+    font-family: "DM Sans", serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
@@ -47,7 +54,7 @@ body {
 }
 
     .sign-in-button:hover {
-        background-color: #A6192E; /* Darker Red */
+        background-color: #9F8EFF; /* Darker Red */
         transform: scale(1.05);
     }
 
@@ -55,47 +62,56 @@ body {
 .logo {
     font-size: 26px;
     font-weight: 700;
-    color: #D72638;
-    font-family: "Bricolage Grotesque", serif;
+    color: #7A63F9;
+    font-family: "DM Sans", serif;
 }
 
 .home-parent {
     display: flex;
     gap: 42px;
     font-size: 16px;
-    font-family: "Bricolage Grotesque", serif;
+    font-family: "DM Sans", serif;
     margin-right: 60px;
 }
 
     .home-parent a {
+        color: #F4F4F4;
         text-decoration: none;
         color: inherit;
         font-weight: inherit;
     }
 
 .home {
+    font-family: "DM Sans", serif;
     font-weight: 600;
-    color: #D72638;
+    color: #7A63F9;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .movies {
+    font-family: "DM Sans", serif;
     font-weight: 500;
-    color: #313131;
+    color: #F4F4F4;
     cursor: pointer;
     transition: color 0.3s ease;
 }
+about {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    color: #F4F4F4;
+    transition: color 0.3s ease;
+}
 
-    .home:hover,
-    .movies:hover {
-        color: #A6192E;
-        font-weight: 600;
-    }
+.about:hover,
+.movies:hover {
+    color: #7A63F9;
+    font-weight: 600;
+}
 
 /* Hero Section */
 .hero-section {
-    width: 90%;
+    width: 94%;
     /* max-width: 1100px;  Prevent it from stretching too much */
     height: 500px; /* Adjust height as needed */
     margin: 90px auto 0 auto; /* Space from top and center it horizontally */
@@ -154,7 +170,7 @@ body {
 
 .custom-button {
     z-index: 1;
-    background-color: #D72638; /* Default background color */
+    background-color: #7A63F9; /* Default background color */
     font-family: "Bricolage Grotesque", serif;
     color: white; /* Text color */
     font-size: 16px; /* Font size */
@@ -168,148 +184,150 @@ body {
 
     /* Hover Effect */
     .custom-button:hover {
-        background-color: rgba(166, 25, 46, 0.3); /* Crimson Red with 90% opacity */
+        background-color: rgba(159, 142, 255, 0.3); /* Crimson Red with 90% opacity */
         backdrop-filter: blur(10px); /* Background blur */
-        background-color: #A6192E; /* Change background color to black on hover */
+        background-color: #9F8EFF; /* Change background color to black on hover */
         transform: scale(1.05); /* Slightly enlarge the button on hover */
     }
-.Main {
-    align-content: center;
-    height: 480px;
-}
-.MainContainer {
-    align-content: center;
-    background: #ffffff; /* White background to stand out from the light gray body */
-    padding: 40px 20px; /* Adds space around the content */
-    border-radius: 36px; /* Soft rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 900px; /* Prevents stretching too wide */
-    margin: 40px auto; /* Centers it with spacing */
-    text-align: center; /* Ensures text inside stays centered */
-    height: 200px;
-}
 
-    /* Adjusted paragraph styles */
-.Main p {
-    font-family: "Bricolage Grotesque", serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #313131; /* Darker text for better contrast */
+.Seamless {
+    font-family font-family: "Bricolage Grotesque", serif;
+    background-color: #202226;
+    align-content: center;
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto; /* Center the paragraph */
-    line-height: 1.6;
-}
-
-
-
-/*Slide show */
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    width: 90%;
-    height: 600px;
-    margin: 40px auto;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.slide {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
+    height: 160px;
 }
-
-    .slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    .Seamless p {
+        font-family font-family: "Bricolage Grotesque", serif;
+        color: #7A63F9;
+        font-size: 44px;
     }
-
-/* Animation */
-@keyframes slideAnimation {
-    0% {
-        opacity: 1;
-    }
-
-    33% {
-        opacity: 1;
-    }
-
-    34% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-.slide:nth-child(1) {
-    animation: slideAnimation 9s infinite;
-}
-
-.slide:nth-child(2) {
-    animation: slideAnimation 9s infinite 3s;
-}
-
-.slide:nth-child(3) {
-    animation: slideAnimation 9s infinite 6s;
-}
-
-.featured {
-    text-align: center;
-    margin: 50px auto;
-    padding: 40px;
-}
-
-    .featured h2 {
-        font-size: 32px;
-        font-weight: 500;
-        color: #D72638;
-        margin-bottom: 40px;
-        font-family: "Bricolage Grotesque", serif;
-    }
-
-.featured-container {
+/*Container 1*/
+.process1-container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    align-items: center;
+    background-color: #202226;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px; /* Adds space between image and text */
+    width: 100%; /* Prevents stretching */
 }
 
-.movie {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-    border-radius: 24px;
-    padding: 15px;
-    text-align: center;
-    width: 280px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+.image1 img {
+    margin-left: 20px;
+    width: 425px; /* Adjust image size */
+    height: 251px;
+    background: none; /* Ensures no background */
 }
 
-    .movie img {
-        width: 100%;
-        height: 250px;
-        border-radius: 8px;
-        object-fit: contain; /* Changed from cover to contain */
+.text-container1 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 70px;
+    border-radius: 28px;
+    max-width: 550px;
+    border: solid #7A63F9 1px;
+    margin-left: 100px
+}
+
+    /* Style text inside the container */
+    .text-container1 h2 {
+        margin: 0px 0px 8px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        color: #A282FF;
+        font-size: 28px;
     }
 
-
-    .movie h3 {
+    .text-container1 p {
+        margin: 0px 0px 0px 0px;
+        font-family: "Bricolage Grotesque", serif;
         font-size: 20px;
-        font-weight: 600;
-        color: #313131;
-        margin-top: 12px;
-        font-family: "Bricolage Grotesque", serif;
+        color: #ccc;
+        width: 540px;
     }
 
-    .movie p {
-        font-size: 16px;
-        color: #555;
-        margin-top: 8px;
+/*Container 2*/
+.process2-container {
+    margin: 32px 0px 32px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #202226;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px; /* Adds space between image and text */
+    width: 100%; /* Prevents stretching */
+}
+
+.text-container2 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 70px;
+    border-radius: 28px;
+    max-width: 550px;
+    border: solid #7A63F9 1px;
+}
+
+    /* Style text inside the container */
+    .text-container2 h2 {
+        margin: 0px 0px 8px 0px;
         font-family: "Bricolage Grotesque", serif;
+        color: #A282FF;
+        font-size: 28px;
     }
 
+    .text-container2 p {
+        margin: 0px 0px 0px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        color: #ccc;
+        width: 540px;
+    }
+
+.image2 img {
+    margin-left: 20px;
+    width: 425px; /* Adjust image size */
+    height: 251px;
+    background: none; /* Ensures no background */
+}
+
+/*Container 3*/
+.process3-container {
+    display: flex;
+    align-items: center;
+    background-color: #202226;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px; /* Adds space between image and text */
+    width: 100%; /* Prevents stretching */
+}
+
+.image3 img {
+    margin-left: 20px;
+    width: 425px; /* Adjust image size */
+    height: 251px;
+    background: none; /* Ensures no background */
+}
+
+.text-container3 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 70px;
+    border-radius: 28px;
+    max-width: 550px;
+    border: solid #7A63F9 1px;
+    margin-left: 100px
+}
+
+    /* Style text inside the container */
+    .text-container3 h2 {
+        margin: 0px 0px 8px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        color: #A282FF;
+        font-size: 28px;
+    }
+
+    .text-container3 p {
+        margin: 0px 0px 0px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        color: #ccc;
+        width: 540px;
+    }
