@@ -198,3 +198,10 @@
         transform: scale(1.1);
     }
 
+.trailer {
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    border-radius: 16px;
+}
+

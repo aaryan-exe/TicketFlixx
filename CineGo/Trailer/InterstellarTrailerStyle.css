@@ -100,3 +100,75 @@ about {
         color: #7A63F9;
         font-weight: 600;
     }
+
+
+.process2-container {
+    margin: 32px 0px 32px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #0E0D13;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px; /* Adds space between image and text */
+    width: 100%; /* Prevents stretching */
+}
+
+.text-container2 {
+    align-content: center;
+    align-items: center;
+    padding: 24px;
+    border-radius: 28px;
+    max-width: 820px;
+}
+
+    /* Style text inside the container */
+    .text-container2 h2 {
+        margin: 0px 0px 8px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        color: #A282FF;
+        font-size: 28px;
+    }
+
+    .text-container2 p {
+        margin: 0px 0px 0px 0px;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        color: #ccc;
+        width: 540px;
+    }
+
+.image2 img {
+    margin-left: 20px;
+    width: 500px; /* Adjust image size */
+    height: 251px;
+    background: none; /* Ensures no background */
+}
+
+/* Style all ASP.NET buttons */
+/* Style only the specific three buttons */
+#time1, #time2, #time3 {
+    margin: 0px 5px 0px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    border: 1px solid #7A63F9;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #7A63F9;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    /* Hover effect */
+    #time1:hover, #time2:hover, #time3:hover {
+        background-color: #7A63F9;
+        color: white;
+        transform: scale(1.05);
+    }
+.TimingSelect {
+    margin: 0px 0px 10px 0px ;
+    font-family: "Bricolage Grotesque", serif;
+    color: white;
+    font-size: 32px;
+}
