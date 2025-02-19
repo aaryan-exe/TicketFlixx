@@ -6,27 +6,33 @@
 <head runat="server">
     <title>CineGo</title>
     <link type="text/css" rel="stylesheet" href="Lander.css" />
+    <!-- Font 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+    <!-- Dm sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <form id="form1" runat="server">
+        
         <div class="navigation">
-    <div class="logo">CineGo</div>
-    <div class="home-parent">
-        <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
-        <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
-        <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
-    </div>
-    <div class="auth-buttons">
-        <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" OnClick="btnSignIn_Click" />
-    </div>
-</div>
+            <div class="logo">TicketFlicks</div>
+            <div class="home-parent">
+                <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
+                <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
+                <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
+            </div>
+            <div class="auth-buttons">
+                <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" OnClick="btnSignIn_Click" />
+            </div>
+        </div>
 
 
         <!-- Hero Section -->
@@ -36,49 +42,43 @@
             <asp:Button runat="server" Text="Explore" Width="140px" Height="" CssClass="custom-button" />
         </div>
 
-        <!-- Featured Movies Section -->
-<div class="featured">
-    <h2>Seamless Booking, Just a Few Clicks Away! 🎟️✨</h2>
-    <div class="featured-container">
-        <div class="movie">
-            <img src="/Images/Pic1.png" alt="Movie 1"/>
-            <h3>Choose Your Movie</h3>
-            <p>Browse through the latest blockbusters and pick the one that excites you the most!</p>
+        <div class="Seamless">
+            <p>Seamless Booking Process</p>
         </div>
-        <div class="movie">
-            <img src="/Images/Pic3.png" alt="Movie 2"/>
-            <h3> Select Your Seats</h3>
-            <p>Get the best view by choosing your preferred seats—front row thrill or cozy back seats, it's your call!</p>
-        </div>
-        <div class="movie">
-            <img src="/Images/Pic2.png" alt="Movie 3"/>
-            <h3>Make Payment & Enjoy!</h3>
-            <p>Complete your booking with a secure and hassle-free payment. Now, sit back, relax, and get ready for an amazing movie experience! 🍿🎬</p>
-        </div>
-    </div>
-</div>
 
-      <!--  <div class="slideshow-container">
-    <div class="slide fade">
-        <img src="/Images/backgrou.jpg" alt="Slide 1"/>
-        <p>text1</p>
-    </div>
-    <div class="slide fade">
-        <img src="/Images/background4.jpg" alt="Slide 2"/>
-        <p>text2</p>
-    </div>
-    <div class="slide fade">
-        <img src="/Images/ValorantWallpaper_Singularity_galleryimage.jpg" alt="Slide 3"/>
-        <p>text3</p>
-    </div>
-</div> -->  
-
-
-        <div class="Main">
-            <div class="MainContainer">
-                <p>Welcome to CineGo, your one-stop destination for hassle-free movie ticket booking! Explore the latest blockbusters, choose your preferred showtime, and reserve your seats with just a few clicks. Enjoy a seamless experience with secure payments, instant e-ticket generation, and exclusive movie deals. Book now and never miss out on your favorite films! 🎬🍿</p>
+        <!-- Container 1 -->
+        <div class="process1-container">
+            <div class="image1">
+                <img src="/Images/Pic1.svg" alt="Movie Selection" />
+            </div>
+            <div class="text-container1">
+                <h2>Choose Your Moviee</h2>
+                <p>Browse through the latest blockbusters and pick the one that excites you the most! Explore different genres, check ratings, and view posters to find your perfect film.</p>
             </div>
         </div>
+
+        <!-- Container 2 -->
+        <div class="process2-container">
+            <div class="text-container2">
+                <h2>Choose Your Moviee</h2>
+                <p>Browse through the latest blockbusters and pick the one that excites you the most! Explore different genres, check ratings, and view posters to find your perfect film.</p>
+            </div>
+            <div class="image2">
+                <img src="/Images/Pic2.svg" alt="Movie Selection" />
+            </div>
+        </div>
+
+
+        <!-- Container 3 -->
+        <div class="process3-container">
+    <div class="image3">
+        <img src="/Images/Pic3.svg" alt="Movie Selection" />
+    </div>
+    <div class="text-container3">
+        <h2>Choose Your Moviee</h2>
+        <p>Browse through the latest blockbusters and pick the one that excites you the most! Explore different genres, check ratings, and view posters to find your perfect film.</p>
+    </div>
+</div>
     </form>
 </body>
 </html>

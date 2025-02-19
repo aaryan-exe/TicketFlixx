@@ -8,10 +8,11 @@
 }
 
 body {
-    background-color: #FAF8F6;
+    background-color: #202226;
     margin: 0;
     padding: 0; /* Remove extra space */
 }
+
 .navigation {
     position: fixed; /* Keep it fixed at the top */
     top: 0;
@@ -22,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(32, 34, 38, 0.8);
     backdrop-filter: blur(12px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -34,11 +35,11 @@ body {
 
 .sign-in-button {
     margin-right: 20px;
-    background-color: #D72638; /* Crimson Red */
+    background-color: #7A63F9; /* Crimson Red */
     color: white;
-    font-family: "Bricolage Grotesque", serif;
+    font-family: "DM Sans", serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
@@ -47,7 +48,7 @@ body {
 }
 
     .sign-in-button:hover {
-        background-color: #A6192E; /* Darker Red */
+        background-color: #9F8EFF; /* Darker Red */
         transform: scale(1.05);
     }
 
@@ -55,46 +56,55 @@ body {
 .logo {
     font-size: 26px;
     font-weight: 700;
-    color: #D72638;
-    font-family: "Bricolage Grotesque", serif;
+    color: #7A63F9;
+    font-family: "DM Sans", serif;
 }
 
 .home-parent {
     display: flex;
     gap: 42px;
     font-size: 16px;
-    font-family: "Bricolage Grotesque", serif;
+    font-family: "DM Sans", serif;
     margin-right: 60px;
 }
 
     .home-parent a {
+        color: #F4F4F4;
         text-decoration: none;
         color: inherit;
         font-weight: inherit;
     }
 
 .about {
+    font-family: "DM Sans", serif;
     font-weight: 600;
-    color: #D72638;
+    color: #7A63F9;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
-.movies {
+.movies, .home {
+    font-family: "DM Sans", serif;
     font-weight: 500;
-    color: #313131;
+    color: #F4F4F4;
     cursor: pointer;
     transition: color 0.3s ease;
 }
+/*
+about {
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    color: #F4F4F4;
+    transition: color 0.3s ease;
+}*/
 
-    .home:hover,
-    .movies:hover {
-        color: #A6192E;
-        font-weight: 600;
-    }
-
+.home:hover,
+.movies:hover {
+    color: #7A63F9;
+    font-weight: 600;
+}
 .aboutme {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 30px;
 /*    background-color: #f8f9fa;*/
@@ -106,14 +116,15 @@ body {
     .aboutme h1 {
         font-family: "Bricolage Grotesque", serif;
         font-size: 64px;
-        color: #D72638;
+        color: #7A63F9;
         margin-bottom: 15px;
     }
 
     .aboutme p {
-        font-family: "Bricolage Grotesque", serif;
+        font-weight: 400;   
+        font-family: "DM Sans", serif;
         font-size: 18px;
-        color: #555;
+        color: #F4F4F4;
         line-height: 1.6;
         text-align: justify;
     }

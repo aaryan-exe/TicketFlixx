@@ -1,7 +1,25 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
   "Documents": [],
+=======
+  "WorkspaceRootPath": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\aboutus\\aboutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\aboutus\\aboutstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+>>>>>>> 1cf74a65cf889d83aad267b9b2c2d9d4a169fb0b
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +27,57 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": -1,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> 1cf74a65cf889d83aad267b9b2c2d9d4a169fb0b
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutStyle.css",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\AboutStyle.css",
+              "RelativeDocumentMoniker": "CineGo\\AboutUs\\AboutStyle.css",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\AboutStyle.css",
+              "RelativeToolTip": "CineGo\\AboutUs\\AboutStyle.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-19T09:50:53.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\About.aspx",
+              "RelativeDocumentMoniker": "CineGo\\AboutUs\\About.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\AboutUs\\About.aspx",
+              "RelativeToolTip": "CineGo\\AboutUs\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-19T09:50:19.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-19T08:44:54.321Z",
+              "EditorCaption": ""
+>>>>>>> 1cf74a65cf889d83aad267b9b2c2d9d4a169fb0b
             }
           ]
         }
