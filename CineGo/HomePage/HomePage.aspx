@@ -42,7 +42,7 @@ body {
 
 
         /* Navigation Bar */
-        .navigation {
+.navigation {
     position: fixed; /* Keep it fixed at the top */
     top: 0;
     left: 0;
@@ -106,28 +106,29 @@ body {
 
 .home {
     font-family: "DM Sans", serif;
-    font-weight: 600;
-    color: #7A63F9;
+    font-weight: 500;
+    color: #F4F4F4;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .movies {
     font-family: "DM Sans", serif;
+    font-weight: 600;
+    color: #7A63F9;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.about {
+    font-family: "DM Sans", serif;
     font-weight: 500;
     color: #F4F4F4;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-about {
-    font-family: "DM Sans", serif;
-    font-weight: 500;
-    color: #F4F4F4;
-    transition: color 0.3s ease;
-}
 
 .about:hover,
-.movies:hover {
+.home:hover {
     color: #7A63F9;
     font-weight: 600;
 }
@@ -271,7 +272,7 @@ h3 {
             <div class="home-parent">
                 <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
                 <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
-                <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
+                <div class="about"><a href="/AboutUs/About.aspx">About Us</a></div>
             </div>
             <div class="auth-buttons">
                 <asp:Button ID="btnSignIn" runat="server" Text="Sign In" CssClass="sign-in-button" OnClick="btnSignIn_Click" />
