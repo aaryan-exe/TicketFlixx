@@ -136,6 +136,9 @@
         background-color: red;
     }
 
+    .seat-button.full {
+        background-color: #3E2DA1 ;
+    }
 
 /* Checkbox Container */
 .seats {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Web.UI;
-using System.Web.UI.WebControls; // Add this to recognize Button controls
+using System.Web.UI.WebControls;
 
 namespace CineGo.SeatBooking
 {
@@ -31,7 +31,8 @@ namespace CineGo.SeatBooking
                         Button seatButton = FindControl("Seat" + seatID) as Button;
                         if (seatButton != null)
                         {
-                            seatButton.CssClass += " selected"; // Add "selected" class to change color
+                            seatButton.CssClass += " selected"; // Mark booked seat
+                            seatButton.Enabled = false; // Disable booked seats
                         }
                     }
                 }
@@ -40,17 +41,26 @@ namespace CineGo.SeatBooking
 
         protected void Seat_Click(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            Button clickedButton = sender as Button;
+            if (clickedButton != null)
             {
-                conn.Open();
-                using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = @SeatID", conn))
+                int seatID;
+                if (int.TryParse(clickedButton.Text, out seatID)) // Extract Seat ID from button text
                 {
-                    cmd.Parameters.AddWithValue("@SeatID", 1);
-                    cmd.ExecuteNonQuery();
+                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    {
+                        conn.Open();
+                        using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = @SeatID", conn))
+                        {
+                            cmd.Parameters.AddWithValue("@SeatID", seatID);
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    clickedButton.CssClass += " full"; // Mark seat as selected
+                    clickedButton.Enabled = false; // Disable after booking
                 }
             }
-
-            Seat1.CssClass += " selected"; // Immediately update seat appearance
         }
     }
 }
