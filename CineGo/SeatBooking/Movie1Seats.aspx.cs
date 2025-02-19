@@ -13,47 +13,36 @@ namespace CineGo.SeatBooking
         {
         }
 
-
-        //protected void Seat_Click(object sender, EventArgs e)
-        //{
-        //    for (int i = 1; i <= 50; i++)
-        //    {
-        //        Button btn = (Button)FindControl("Seat" + i);
-        //        if (btn != null && sender == btn)
-        //        {
-        //            BookSeat(i);
-        //            break; // Exit loop once the correct button is found
-        //        }
-        //    }
-        //}
-
-        //private void BookSeat(int seatNumber)
-        //{
-        //    //    if(Seat1)
-        //    //    SqlConnection conn = new SqlConnection(connectionString);
-        //    //    conn.Open();
-
-        //    //    SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatNumber = " + seatNumber, conn);
-        //    //    cmd.ExecuteNonQuery();
-        //    //    conn.Close();
-        //}
-
-        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        protected void CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if (CheckBox1.Checked)
+            CheckBox checkBox = sender as CheckBox;
+            if (checkBox != null)
             {
-                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
+                int seatID = int.Parse(checkBox.ID.Replace("CheckBox", "")); // Extract seat number
 
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = 1", conn))
+                    SqlCommand cmd;
+
+                    if (checkBox.Checked)
                     {
-                        cmd.Parameters.AddWithValue("@SeatID", 1);
-                        cmd.ExecuteNonQuery();
+                        cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = @SeatID", conn);
                     }
+                    else
+                    {
+                        cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Available' WHERE SeatID = @SeatID", conn);
+                    }
+
+                    cmd.Parameters.AddWithValue("@SeatID", seatID);
+                    cmd.ExecuteNonQuery();
                 }
             }
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            Response.Write("<script>alert('Seats confirmed!');</script>");
         }
     }
 }
