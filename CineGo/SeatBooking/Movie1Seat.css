@@ -135,3 +135,63 @@
     .seat-button.selected {
         background-color: red;
     }
+
+
+/* Checkbox Container */
+.seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+    /* Custom Checkbox Styling */
+    .seats span input[type="checkbox"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #D72638;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        background-color: white;
+        display: inline-block;
+        position: relative;
+    }
+
+        /* Checked state */
+        .seats span input[type="checkbox"]:checked {
+            background-color: #A6192E;
+            border: 3px solid #A6192E;
+        }
+
+            /* Checkmark when checked */
+            .seats span input[type="checkbox"]:checked::after {
+                content: "✔";
+                font-size: 24px;
+                color: white;
+                font-weight: bold;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+    /* Checkbox Label Styling */
+    .seats div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #D72638;
+    }
+
+    /* Hover effect */
+    .seats span input[type="checkbox"]:hover {
+        transform: scale(1.1);
+    }
+
