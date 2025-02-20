@@ -35,7 +35,7 @@
     font-style: normal;
 }
 body {
-    background-color: #202226;
+    background-color: #110F16;
     margin: 0;
     padding: 0; /* Remove extra space */
 }
@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    background-color: rgba(32, 34, 38, 0.8);
+    background-color: rgba(17, 15, 22, 0.8);
     backdrop-filter: blur(12px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;

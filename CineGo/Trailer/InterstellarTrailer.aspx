@@ -54,9 +54,9 @@
        </div>
        <div class="image2">
            <p class="TimingSelect">Timing</p>
-           <asp:Button ID="time1" runat="server" Text="9:00 AM"/>
- <asp:Button ID="time2" runat="server" Text="11:00 AM"/>
- <asp:Button ID="time3" runat="server" Text="05:00 PM"/>
+           <asp:Button ID="time1" runat="server" Text="9:00 AM" OnClick="time1_Click"/>
+ <asp:Button ID="time2" runat="server" Text="11:00 AM" OnClick="time2_Click"/>
+ <asp:Button ID="time3" runat="server" Text="05:00 PM" OnClick="time3_Click"/>
        </div>
    </div>
 
