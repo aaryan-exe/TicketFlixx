@@ -9,11 +9,11 @@ namespace CineGo.Trailer
 {
 	public partial class InterstellarTrailer : System.Web.UI.Page
 	{
-		string time;
-		protected void Page_Load(object sender, EventArgs e)
+        string time = "";
+        protected void Page_Load(object sender, EventArgs e)
 		{
-
-		}
+            
+        }
 
         protected void time1_Click(object sender, EventArgs e)
         {
