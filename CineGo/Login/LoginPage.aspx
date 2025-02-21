@@ -24,10 +24,12 @@
              <div class="center-form-div">
                  <form id="form1" runat="server">
                      <p class="Login">Sign in</p>
-                     <p class="email">Email</p>
+                     <p class="email">Email<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="emailTextBox" ErrorMessage="Email address is required" ForeColor="#D72638" ></asp:RequiredFieldValidator>
+                     </p>
                      <asp:TextBox ID="emailTextBox" runat="server" Width="100%" Height="35px"></asp:TextBox>
                      <br />
-                     <p class="password">Password</p>
+                     <p class="password">Password<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="passwordTextBox" ErrorMessage="Password is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                     </p>
                      <asp:TextBox ID="passwordTextBox" runat="server" TextMode="Password" Width="100%" Height="35px"></asp:TextBox>
                      <br />
                      <br />

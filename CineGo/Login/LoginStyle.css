@@ -155,10 +155,11 @@ p.Login {
     height: 35px;
     margin-top: 0px; /* Reduced space between label and input */
     padding: 5px 10px;
-    border: 0px solid var(--color-darkslategray);
     border-radius: 12px;
     font-size: 16px;
     font-family: "Nunito", serif;
+    top: 0px;
+    left: 0px;
 }
 
 /* Responsive layout */
@@ -198,14 +199,15 @@ p.name {
 
 p.email {
     margin-bottom: 4px;
-    width: 55px;
+    width: 273px;
     position: relative;
     font-size: 16px;
     font-weight: 500;
     font-family: "Nunito", serif;
     color: #F4F4F4;
     text-align: left;
-    /*display: inline-block;*/
+    top: 0px;
+    left: 4px;
 }
 
 #emailTextBox {
@@ -223,14 +225,15 @@ p.email {
 
 p.password {
     margin-bottom: 4px;
-    width: 55px;
+    width: 318px;
     position: relative;
     font-size: 16px;
     font-weight: 500;
     font-family: "Nunito", serif;
     color: #F4F4F4;
     text-align: left;
-    /*display: inline-block;*/
+    top: 0px;
+    left: 0px;
 }
 
 #passwordTextBox {
@@ -298,3 +301,10 @@ p.endpara {
         font-weight: 700;
         color: white !important; /* Force the color to override any conflicting rules */
     }
+#RequiredFieldValidator1{
+    margin-left: 12px;
+}
+
+#RequiredFieldValidator2 {
+    margin-left: 12px;
+}
