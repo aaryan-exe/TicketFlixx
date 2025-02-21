@@ -13,29 +13,21 @@ namespace CineGo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string name = NameTextBox.Text.Trim();
-            string email = EmailTextBox.Text.Trim();
-            string password = PasswordTextBox.Text.Trim();
-            string mobile = MobileTextBox.Text.Trim();
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True;";
+            string name = NameTextBox.Text;
+            string email = EmailTextBox.Text;
+            string password = PasswordTextBox.Text;
+            string mobile = MobileTextBox.Text;
 
-            // Input validation
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) ||
-               string.IsNullOrEmpty(password) || string.IsNullOrEmpty(mobile))
-            {
-                OutputLabel.Text = "*All fields are required.";
-                return;
-            }
 
-            try
+            using (SqlConnection conn = new SqlConnection(connectionString)) // Use shared connection
             {
-                using (SqlConnection con = DatabaseHelper.GetConnection()) // Use shared connection
-                {
-                    con.Open();
+                    conn.Open();
 
                     // Check if the username or mobile already exists
                     // Check if the email or mobileNumber already exists
                     string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR mobileNumber = @mobile";
-                    using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
+                    using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                     {
                         checkCmd.Parameters.AddWithValue("@Email", email);
                         checkCmd.Parameters.AddWithValue("@Mobile", mobile);
@@ -52,7 +44,7 @@ namespace CineGo
                     // Prepare the query for inserting a new user
                     string query1 = "INSERT INTO userInfo(FName, Email, mobileNumber, UserPassword) VALUES (@name, @email, @mobile, @password)";
 
-                    using (SqlCommand cmd = new SqlCommand(query1, con))
+                    using (SqlCommand cmd = new SqlCommand(query1, conn))
                     {
                         // Add parameters
                         cmd.Parameters.AddWithValue("@Name", name);
@@ -71,16 +63,5 @@ namespace CineGo
                 Response.Redirect("\\HomePage\\HomePage.aspx");
                 OutputLabel.Text = "User registered successfully!";
             }
-            catch (SqlException sqlEx)
-            {
-                // Handle SQL-related exceptions
-                OutputLabel.Text = "Database error occurred: " + sqlEx.Message;
-            }
-            catch (Exception ex)
-            {
-                // Handle other exceptions
-                OutputLabel.Text = "An error occurred: " + ex.Message;
-            }
         }
     }
-}

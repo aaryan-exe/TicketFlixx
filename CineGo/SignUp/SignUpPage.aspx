@@ -27,16 +27,20 @@
                         <p class="CreateAccount">Create account</p>
                         <p class="Description">Sign up to book tickets easily, choose seats, and enjoy the latest movies.</p>
                         <br />
-                        <p class="name">Name</p>
+                        <p class="name">Name<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="NameTextBox" ErrorMessage="Name is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                        </p>
                         <asp:TextBox ID="NameTextBox" runat="server" Width="100%" Height="35px"></asp:TextBox>
                         <br />
-                        <p class="email">Email</p>
+                        <p class="email">Email<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="EmailTextBox" ErrorMessage="email is rquired" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                        </p>
                         <asp:TextBox ID="EmailTextBox" runat="server" TextMode="Email" Width="100%" Height="35px"></asp:TextBox>
                         <br />
-                        <p class="mobile">Mobile no</p>
+                        <p class="mobile">Mobile no<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="MobileTextBox" ErrorMessage="mobile no is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                        </p>
                         <asp:TextBox ID="MobileTextBox" runat="server" Width="100%" Height="35px"></asp:TextBox>
                         <br />
-                        <p class="password">Password</p>
+                        <p class="password">Password<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="PasswordTextBox" ErrorMessage="password is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                        </p>
                         <asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password" Width="100%" Height="35px"></asp:TextBox>
                         <br />
                         <br />

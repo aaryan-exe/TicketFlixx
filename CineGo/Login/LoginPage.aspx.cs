@@ -7,56 +7,43 @@ namespace CineGo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Logic to run on page load (if any)
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            // Retrieve input from textboxes
-            string email = emailTextBox.Text.Trim();
-            string password = passwordTextBox.Text.Trim();
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True;";
+            string email = emailTextBox.Text;
+            string password = passwordTextBox.Text;
 
-            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+            // Use shared connection
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                OutputLabel.Text = "Please enter both Email and Password.";
-                return;
-            }
+                conn.Open();
 
-            try
-            {
-                // Use shared connection
-                using (SqlConnection con = DatabaseHelper.GetConnection())
+                // Corrected SQL query
+                string query = "SELECT COUNT(*) FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
+
+                using (SqlCommand cmd = new SqlCommand(query, conn)) // Fixed "con" to "conn"
                 {
-                    con.Open();
+                    // Add parameters
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@Password", password);
 
-                    // Corrected SQL query
-                    string query = "SELECT COUNT(*) FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
+                    // Execute the query
+                    int count = (int)cmd.ExecuteScalar();
 
-                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    if (count > 0)
                     {
-                        // Add parameters
-                        cmd.Parameters.AddWithValue("@Email", email);
-                        cmd.Parameters.AddWithValue("@Password", password);
-
-                        // Execute the query
-                        int count = (int)cmd.ExecuteScalar();
-
-                        if (count > 0)
-                        {
-                            OutputLabel.Text = "Login successful!";
-                            Session["uemail"] = emailTextBox.Text;
-                            Response.Redirect("/HomePage/HomePage.aspx");
-                        }
-                        else
-                        {
-                            OutputLabel.Text = "*Invalid username or password.";
-                        }
+                        OutputLabel.Text = "Login successful!";
+                        Session["uemail"] = emailTextBox.Text;
+                        Response.Redirect("/HomePage/HomePage.aspx");
+                    }
+                    else
+                    {
+                        OutputLabel.Text = "*Invalid username or password.";
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                OutputLabel.Text = "An error occurred: " + ex.Message;
             }
         }
     }
