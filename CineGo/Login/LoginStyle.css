@@ -21,6 +21,7 @@
 }
 /* Reset margin and padding */
 body, html {
+    background-color: #131118;
     margin: 0;
     padding: 0;
     font-family: var(--font-geist);
@@ -41,7 +42,7 @@ body, html {
 .rectangle-div {
     flex: 1; /* Take up half the width of the parent */
     min-height: 100vh; /* Ensure the height matches the viewport */
-    background-color: #1D63FF; /* Background color */
+    background-color: #7A63F9; /* Background color */
     border-radius: var(--br-xs); /* Rounded corners */
     display: flex;
     justify-content: center;
@@ -90,12 +91,13 @@ body, html {
     justify-content: center;
     width: 100%;
     max-width: 400px; /* Limit the form width */
-    background-color: var(--color-white); /* Form background */
-    border-radius: var(--br-xs);
+    background-color: #1A1826; /* Form background */
+    border: 1px solid #7A63F9;
+    border-radius: 24px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Subtle shadow */
     padding: 30px;
     box-sizing: border-box;
-    height: auto;
+    height: 450px;
     min-height: 50%; /* Ensures the form takes some height */
 }
 
@@ -125,7 +127,7 @@ p.Login {
     font-size: 36px;
     font-weight: 800;
     font-family: "Nunito", serif;
-    color: #1D63FF;
+    color: #7A63F9;
     text-align: center;
 }
 
@@ -148,6 +150,7 @@ p.Login {
 
 /* Form input styles */
 #form1 input {
+    color: #f4f4f4;
     width: 300px;
     height: 35px;
     margin-top: 0px; /* Reduced space between label and input */
@@ -200,7 +203,7 @@ p.email {
     font-size: 16px;
     font-weight: 500;
     font-family: "Nunito", serif;
-    color: #333;
+    color: #F4F4F4;
     text-align: left;
     /*display: inline-block;*/
 }
@@ -210,7 +213,7 @@ p.email {
     font-size: 16px;
     position: relative;
     border-radius: 8px;
-    background-color: #F1F1F1;
+    background-color: #3C394C;
     border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
@@ -225,7 +228,7 @@ p.password {
     font-size: 16px;
     font-weight: 500;
     font-family: "Nunito", serif;
-    color: #333;
+    color: #F4F4F4;
     text-align: left;
     /*display: inline-block;*/
 }
@@ -235,7 +238,7 @@ p.password {
     width: 100%;
     position: relative;
     border-radius: 2px;
-    background-color: #F1F1F1;
+    background-color: #3C394C;
     border: 0px solid #000;
     box-sizing: border-box;
     height: 25px;
@@ -258,7 +261,7 @@ p.password {
 
 /* Button Default Style */
 .custom-button {
-    background-color: #1d63ff; /* Default background color */
+    background-color: #7A63F9; /* Default background color */
     color: white; /* Text color */
     font-size: 16px; /* Font size */
     font-weight: bold; /* Bold text */
@@ -271,11 +274,12 @@ p.password {
 
     /* Hover Effect */
     .custom-button:hover {
-        background-color: black; /* Change background color to black on hover */
+        background-color: #9F8EFF; /* Change background color to black on hover */
         transform: scale(1.05); /* Slightly enlarge the button on hover */
     }
 
 p.endpara {
+    color:#F4F4F4;
     text-align: center;
     font-family: "Nunito", serif;
 }
