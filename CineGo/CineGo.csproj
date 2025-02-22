@@ -286,7 +286,6 @@
     <Content Include="SignUp\SignupStyle.css" />
     <Content Include="Login\LoginPage.aspx" />
     <Content Include="SignUp\SignUpPage.aspx" />
-    <Content Include=".aspx" />
     <Content Include="Payment\PayMent.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -316,6 +315,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Trailer\Batman.aspx" />
     <Content Include="Trailer\InterstellarTrailer.aspx" />
     <Content Include="Trailer\InterstellarTrailerStyle.css" />
     <Content Include="ViewSwitcher.ascx" />
@@ -394,6 +394,13 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Trailer\Batman.aspx.cs">
+      <DependentUpon>Batman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trailer\Batman.aspx.designer.cs">
+      <DependentUpon>Batman.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Trailer\InterstellarTrailer.aspx.cs">
       <DependentUpon>InterstellarTrailer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -421,13 +428,6 @@
     </Compile>
     <Compile Include="SignUp\SignUpPage.aspx.designer.cs">
       <DependentUpon>SignUpPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include=".aspx.cs">
-      <DependentUpon>.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include=".aspx.designer.cs">
-      <DependentUpon>.aspx</DependentUpon>
     </Compile>
     <Compile Include="Payment\PayMent.aspx.cs">
       <DependentUpon>PayMent.aspx</DependentUpon>
