@@ -24,7 +24,7 @@ namespace CineGo.HomePage
 
         protected void btnInterstellar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("/SeatBooking/Movie1Seats.aspx");
+            Response.Redirect("/Trailer/InterstellarTrailer.aspx");
         }
 
         protected void btnSignIn_Click(object sender, EventArgs e)

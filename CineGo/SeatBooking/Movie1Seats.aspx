@@ -24,10 +24,14 @@
             </div>
         </div>
 
-        <div class="heading">
-            <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
-             <asp:Button ID="Time1" runat="server" Text="09:00 am" Width="90px" CssClass="time-button" AutoPostBack="True" />
-        </div>
+<div class="heading">
+    <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
+    <div class="info">
+        <asp:Label ID="TimeLabel" runat="server"></asp:Label>
+        <asp:Label ID="TheaterLabel" runat="server"></asp:Label>
+    </div>
+</div>
+
 
         <div class="container">
             <!-- Poster Section (Left) -->
@@ -77,7 +81,7 @@
                 <asp:Button ID="Seat38" runat="server" Text="38" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat39" runat="server" Text="39" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <!-- Add remaining seats up to 60 -->
-                <asp:Button ID="BookButton" runat="server" Text="Book" CssClass="book-button" Width="120px" />
+                <asp:Button ID="BookButton" runat="server" Text="Book" CssClass="book-button" Width="120px" OnClick="BookButton_Click" />
 
             </div>
         </div>

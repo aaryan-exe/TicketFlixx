@@ -185,3 +185,28 @@ about {
 .image2, .image3 {
     text-align: center; /* Center aligns text and buttons */
 }
+
+#BookButton {
+    margin-top: 28px;
+    position: center;
+    bottom: 20px;
+    right: 20px;
+    width: 170px;
+    height: 45px;
+    background-color: #7A63F9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+    #BookButton:hover {
+        background-color: #9F8EFF;
+    }
+#WarningLabel{
+    color: red;
+    font-size: 18px;
+}

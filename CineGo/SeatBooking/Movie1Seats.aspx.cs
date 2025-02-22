@@ -15,6 +15,8 @@ namespace CineGo.SeatBooking
             {
                 MarkBookedSeats();
             }
+            TimeLabel.Text ="Time: "+ Session["time"];
+            TheaterLabel.Text = "Theater: " + Session["theater"];
         }
 
         private void MarkBookedSeats()
@@ -61,6 +63,11 @@ namespace CineGo.SeatBooking
                     clickedButton.Enabled = false; // Disable after booking
                 }
             }
+        }
+
+        protected void BookButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Payment/PaYment.aspx");
         }
     }
 }

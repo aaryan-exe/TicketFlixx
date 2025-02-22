@@ -287,7 +287,7 @@
     <Content Include="Login\LoginPage.aspx" />
     <Content Include="SignUp\SignUpPage.aspx" />
     <Content Include=".aspx" />
-    <Content Include="PayMent.aspx" />
+    <Content Include="Payment\PayMent.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -429,11 +429,11 @@
     <Compile Include=".aspx.designer.cs">
       <DependentUpon>.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PayMent.aspx.cs">
+    <Compile Include="Payment\PayMent.aspx.cs">
       <DependentUpon>PayMent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PayMent.aspx.designer.cs">
+    <Compile Include="Payment\PayMent.aspx.designer.cs">
       <DependentUpon>PayMent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

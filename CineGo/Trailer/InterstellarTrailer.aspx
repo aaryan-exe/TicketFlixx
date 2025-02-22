@@ -54,23 +54,31 @@
                 <div class="image2">
                     <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
                         Timing
+                        <asp:Label ID="TimeLabel" runat="server"></asp:Label>
                     </p>
 
-                    <asp:Button ID="time1" runat="server" Text="9:00 AM" Width="90px" CssClass="time-button" />
-                    <asp:Button ID="time2" runat="server" Text="11:00 AM" Width="90px" CssClass="time-button" />
-                    <asp:Button ID="time3" runat="server" Text="05:00 PM" Width="90px" CssClass="time-button" />
+                    <asp:Button ID="time1" runat="server" Text="9:00 AM" Width="90px" CssClass="time-button" OnClick="time1_Click1" />
+                    <asp:Button ID="time2" runat="server" Text="11:00 AM" Width="90px" CssClass="time-button" OnClick="time2_Click1" />
+                    <asp:Button ID="time3" runat="server" Text="05:00 PM" Width="90px" CssClass="time-button" OnClick="time3_Click1" />
                 </div>
 
                 <div class="image3">
                     <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
                         Theater
+                        <asp:Label ID="TheaterLabel" runat="server"></asp:Label>
                     </p>
 
-                    <asp:Button ID="Button1" runat="server" Text="IMAX" Width="90px" CssClass="time-button" />
-                    <asp:Button ID="Button2" runat="server" Text="PVR" Width="90px" CssClass="time-button" />
-                    <asp:Button ID="Button3" runat="server" Text="INOX" Width="90px" CssClass="time-button" />
+                    <asp:Button ID="Button1" runat="server" Text="IMAX" Width="90px" CssClass="time-button" OnClick="Button1_Click" />
+                    <asp:Button ID="Button2" runat="server" Text="PVR" Width="90px" CssClass="time-button" OnClick="Button2_Click" />
+                    <asp:Button ID="Button3" runat="server" Text="INOX" Width="90px" CssClass="time-button" OnClick="Button3_Click" />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Label ID="WarningLabel" runat="server"></asp:Label>
                 </div>
+                                <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
             </div>
+
     </form>
 </body>
 </html>

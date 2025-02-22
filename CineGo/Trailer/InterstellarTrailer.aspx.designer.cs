@@ -33,6 +33,15 @@ namespace CineGo.Trailer
         protected global::System.Web.UI.WebControls.Button btnSignIn;
 
         /// <summary>
+        /// TimeLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TimeLabel;
+
+        /// <summary>
         /// time1 control.
         /// </summary>
         /// <remarks>
@@ -60,6 +69,15 @@ namespace CineGo.Trailer
         protected global::System.Web.UI.WebControls.Button time3;
 
         /// <summary>
+        /// TheaterLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TheaterLabel;
+
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -85,5 +103,23 @@ namespace CineGo.Trailer
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// WarningLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label WarningLabel;
+
+        /// <summary>
+        /// BookButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BookButton;
     }
 }
