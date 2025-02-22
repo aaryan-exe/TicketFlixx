@@ -26,6 +26,7 @@
 
         <div class="heading">
             <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
+             <asp:Button ID="Time1" runat="server" Text="09:00 am" Width="90px" CssClass="time-button" AutoPostBack="True" />
         </div>
 
         <div class="container">
@@ -75,8 +76,9 @@
                 <asp:Button ID="Seat37" runat="server" Text="37" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat38" runat="server" Text="38" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat39" runat="server" Text="39" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
-                <asp:Button ID="Seat40" runat="server" Text="40" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <!-- Add remaining seats up to 60 -->
+                <asp:Button ID="BookButton" runat="server" Text="Book" CssClass="book-button" Width="120px" />
+
             </div>
         </div>
     </form>

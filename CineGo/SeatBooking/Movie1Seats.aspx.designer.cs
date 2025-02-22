@@ -33,6 +33,15 @@ namespace CineGo.SeatBooking
         protected global::System.Web.UI.WebControls.Label MovieSeatName;
 
         /// <summary>
+        /// Time1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Time1;
+
+        /// <summary>
         /// Seat1 control.
         /// </summary>
         /// <remarks>
@@ -384,12 +393,12 @@ namespace CineGo.SeatBooking
         protected global::System.Web.UI.WebControls.Button Seat39;
 
         /// <summary>
-        /// Seat40 control.
+        /// BookButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Seat40;
+        protected global::System.Web.UI.WebControls.Button BookButton;
     }
 }
