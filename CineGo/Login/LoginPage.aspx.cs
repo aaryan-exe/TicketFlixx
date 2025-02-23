@@ -16,15 +16,13 @@ namespace CineGo
             string email = emailTextBox.Text;
             string password = passwordTextBox.Text;
 
-            // Use shared connection
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                // Corrected SQL query
                 string query = "SELECT COUNT(*) FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
 
-                using (SqlCommand cmd = new SqlCommand(query, conn)) // Fixed "con" to "conn"
+                using (SqlCommand cmd = new SqlCommand(query, conn)) 
                 {
                     // Add parameters
                     cmd.Parameters.AddWithValue("@Email", email);

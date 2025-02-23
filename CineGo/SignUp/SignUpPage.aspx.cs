@@ -20,12 +20,10 @@ namespace CineGo
             string mobile = MobileTextBox.Text;
 
 
-            using (SqlConnection conn = new SqlConnection(connectionString)) // Use shared connection
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                     conn.Open();
 
-                    // Check if the username or mobile already exists
-                    // Check if the email or mobileNumber already exists
                     string checkQuery = "SELECT COUNT(*) FROM userInfo WHERE email = @email OR mobileNumber = @mobile";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                     {
@@ -41,24 +39,21 @@ namespace CineGo
                         }
                     }
 
-                    // Prepare the query for inserting a new user
                     string query1 = "INSERT INTO userInfo(FName, Email, mobileNumber, UserPassword) VALUES (@name, @email, @mobile, @password)";
 
                     using (SqlCommand cmd = new SqlCommand(query1, conn))
                     {
-                        // Add parameters
+
                         cmd.Parameters.AddWithValue("@Name", name);
                         cmd.Parameters.AddWithValue("@Email", email);
                         cmd.Parameters.AddWithValue("@Mobile", mobile);
                         cmd.Parameters.AddWithValue("@Password", password);
 
-                        // Execute the query
                         cmd.ExecuteNonQuery();
                     }
 
                 }
 
-                // Success message
                 Session["uemail"] = EmailTextBox.Text;
                 Response.Redirect("\\HomePage\\HomePage.aspx");
                 OutputLabel.Text = "User registered successfully!";
