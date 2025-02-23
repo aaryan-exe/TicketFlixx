@@ -60,5 +60,6 @@ namespace CineGo.Trailer
                 WarningLabel.Text = "Please select both Time and theater";
             }
         }
+
     }
 }

@@ -13,6 +13,10 @@ namespace CineGo.HomePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["uname"] == null)
+            {
+                Response.Redirect("\\SignUp\\SignUpPage.aspx");
+            }
         }
 
        
@@ -27,10 +31,6 @@ namespace CineGo.HomePage
             Response.Redirect("/Trailer/InterstellarTrailer.aspx");
         }
 
-        protected void btnSignIn_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("\\SignUp\\SignUpPage.aspx");
-        }
 
         protected void Batmanbtn_Click(object sender, EventArgs e)
         {
