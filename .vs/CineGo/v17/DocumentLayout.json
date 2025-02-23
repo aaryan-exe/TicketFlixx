@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\batmanseatselect.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\batmanseatselect.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\trailer\\batman.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\trailer\\batman.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\trailer\\batman.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\trailer\\batman.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\batmanseatselect.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\batmanseatselect.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Movie1Seats.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Batman.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Trailer\\Batman.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\Trailer\\Batman.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Trailer\\Batman.aspx.cs",
+              "RelativeToolTip": "CineGo\\Trailer\\Batman.aspx.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAzwDcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T06:01:28.754Z",
+              "WhenOpened": "2025-02-23T08:40:47.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie1Seats.aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx",
-              "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx",
+              "DocumentIndex": 2,
+              "Title": "Batman.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Trailer\\Batman.aspx",
+              "RelativeDocumentMoniker": "CineGo\\Trailer\\Batman.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\Trailer\\Batman.aspx",
+              "RelativeToolTip": "CineGo\\Trailer\\Batman.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-23T08:40:43.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-23T06:01:25.145Z",
+              "WhenOpened": "2025-02-23T08:39:52.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BatmanSeatSelect.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "RelativeToolTip": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:39:10.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BatmanSeatSelect.aspx",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx",
+              "RelativeToolTip": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-23T08:38:17.238Z",
               "EditorCaption": ""
             }
           ]

@@ -312,7 +312,7 @@ h3 {
                 <img src="https://www.themoviedb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight" />
                 <h3>The Dark Knight</h3>
                 <div class="rating">★ 9.0/10</div>
-                <a href="MovieDetails.aspx?title=The Dark Knight"><button class="book-btn">Book Now</button></a>
+                 <asp:Button ID="Batmanbtn" runat="server" CssClass="book-btn" Text="Book Now" OnClick="Batmanbtn_Click" />
             </div>
                     <!-- Movie 5 -->
 <div class="movie">

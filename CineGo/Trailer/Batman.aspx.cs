@@ -53,7 +53,7 @@ namespace CineGo.Trailer
         {
             if (Session["theater"] != null && Session["time"] != null)
             {
-                Response.Redirect("/SeatBooking/Movie1Seats.aspx");
+                Response.Redirect("/SeatBooking/BatmanSeatSelect.aspx");
             }
             else
             {

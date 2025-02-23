@@ -31,5 +31,10 @@ namespace CineGo.HomePage
         {
             Response.Redirect("\\SignUp\\SignUpPage.aspx");
         }
+
+        protected void Batmanbtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Trailer/Batman.aspx");
+        }
     }
 }

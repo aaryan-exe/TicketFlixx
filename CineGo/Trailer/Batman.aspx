@@ -76,9 +76,9 @@
                     <br />
                     <asp:Label ID="WarningLabel" runat="server"></asp:Label>
                 </div>
-                                <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
+                     <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
             </div>
-
+</div>
     </form>
 </body>
 </html>
