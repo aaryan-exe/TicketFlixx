@@ -22,7 +22,7 @@ namespace CineGo
         protected void btnPay_Click(object sender, EventArgs e)
         {
             // Simulate payment processing
-            Response.Write("<script>alert('🎉 Payment Successful! Enjoy your movie!');</script>");
+            Response.Redirect("/Confirmation/Confirm.aspx");
         }
     }
 }

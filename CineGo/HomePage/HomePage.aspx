@@ -222,16 +222,23 @@ h3 {
     max-width: 100%;
     height: 500px; /* Adjust height as needed */
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .SlideShow img {
-    width: 100%;
+    border-radius: 16px;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    left: 50%; /* Position the image in the horizontal center */
+    transform: translateX(-50%); /* Shift the image back by 50% of its width */
 }
+
 
 /* Animation for slideshow */
 @keyframes slideShow {
@@ -261,9 +268,9 @@ h3 {
 <body>
     <form id="form1" runat="server">
         <div class="SlideShow">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8f3cKFThjuWsd0re0RhUMOvx1h4abkr3NA&s" alt="Avatar">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxuNxr8QBsQnkPcrcsjMm3rvznUrxkG4daQ&s" alt="Interstellar">
-    <img src="https://www.themoviedb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight">
+    <img src="/Images/BatmanBanner.jpg" alt="Batman">
+    <img src="/Images/BladeRunner.png" alt="Interstellar">
+    <img src="/Images/AvatarBanner.jpeg" alt="The Dark Knight">
 </div>
 
         <!-- Navigation Bar -->

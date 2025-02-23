@@ -15,14 +15,14 @@ namespace CineGo.confirmation
             {
                 // Fetch movie name from query string (sent from Payment page)
                 string movieTitle = Request.QueryString["movie"];
-                lblMovieTitle.Text = string.IsNullOrEmpty(movieTitle) ? "Unknown Movie" : "You booked: " + movieTitle;
+                lblMovieTitle.Text = ""+Session["moviename"];
             }
         }
 
         protected void btnHome_Click(object sender, EventArgs e)
         {
             // Redirect back to the homepage
-            Response.Redirect("Home.aspx");
+            Response.Redirect("HomePage/HomePage.aspx");
         }
     }
 }

@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: "Bricolage Grotesque", sans-serif;
-            background-color: #FAF6F3;
+            background-color: #131118;
             color: #313131;
             display: flex;
             justify-content: center;
@@ -20,7 +20,7 @@
         }
         
         .confirmation-container {
-            background: white;
+            background: #1A1826;
             padding: 30px;
             border-radius: 12px;
             width: 400px;
@@ -42,7 +42,7 @@
         }
 
         h2 {
-            color: #D72638;
+            color: #7A63F9;
             font-size: 28px;
             margin-bottom: 10px;
         }
@@ -53,19 +53,19 @@
             color: #555;
             margin-bottom: 20px;
             padding: 10px;
-            background: #F8E1E3;
+            background: #3C394C;
             border-radius: 6px;
             display: inline-block;
         }
 
         p {
             font-size: 16px;
-            color: #555;
+            color: #f4f4f4;
             margin-bottom: 20px;
         }
 
         .home-btn {
-            background: #D72638;
+            background: #7A63F9;
             color: white;
             width: 100%;
             padding: 14px;
@@ -78,8 +78,11 @@
         }
 
         .home-btn:hover {
-            background: #A6192E;
+            background: #9F8EFF;
             transform: scale(1.05);
+        }
+        #lblMovieTitle{
+            color: #f4f4f4;
         }
     </style>
 </head>
