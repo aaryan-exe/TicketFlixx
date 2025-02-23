@@ -12,7 +12,7 @@ namespace CineGo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True;";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
             string email = emailTextBox.Text;
             string password = passwordTextBox.Text;
 
