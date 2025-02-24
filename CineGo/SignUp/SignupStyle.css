@@ -62,7 +62,7 @@ body, html {
     height: 35px;
     margin-bottom: 12px;
     padding: 5px 10px;
-    border-radius: var(--br-xs);
+    border-radius: 12px;
     font-size: 14px;
     font-family: "Nunito", serif;
     top: 2px;
@@ -98,11 +98,11 @@ body, html {
 
     .center-form-div p {
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 16px;
         font-weight: 500;
         font-family: var(--font-geist);
-        color: #333;
+        color: #f3f3f3;
         margin: 0;
     }
 
@@ -300,6 +300,9 @@ p.password {
     }
 
 p.endpara {
+    align-content: center;
+    align-items: center;
+    text-align: center;
     color: #f4f4f4;
     text-align: center;
     font-family: "Nunito", serif;

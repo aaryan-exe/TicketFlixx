@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineGo</title>
+    <title>TicketFlicks</title>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         .bricolage-grotesque-<uniquifier > {
@@ -147,7 +147,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 100px 20px 20px;
+            padding: 20px 20px 20px;
             gap: 20px;
         }
 
@@ -267,11 +267,19 @@
         .SlideShow img:nth-child(3) {
             animation: slideShow 9s infinite 6s;
         }
+        .trend{
+            font-family: "DM Sans", serif;
+            font-size: 48px;
+            font-weight: 500;
+            color: #f4f4f4;
+            margin: 80px 0px 0px 50px
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="SlideShow">
+            
             <img src="/Images/BatmanBanner.jpg" alt="Batman">
             <img src="/Images/BladeRunner.png" alt="Interstellar">
             <img src="/Images/AvatarBanner.jpeg" alt="The Dark Knight">
@@ -279,7 +287,7 @@
 
         <!-- Navigation Bar -->
         <div class="navigation">
-            <div class="logo">CineGo</div>
+            <div class="logo">TicketFlicks</div>
             <div class="home-parent">
                 <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
                 <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
@@ -288,7 +296,9 @@
             <div class="auth-buttons">
             </div>
         </div>
-
+                <div class="trendDiv">
+            <p class="trend">Trending</p>
+        </div>
         <!-- Movies Section -->
         <div class="movies-container">
             <!-- Movie 1 -->

@@ -147,6 +147,18 @@
                 height: 18px;
                 margin-right: 8px;
             }
+
+        #RequiredFieldValidator1 {
+            margin-left: 12px;
+        }
+
+        #RequiredFieldValidator2 {
+            margin-left: 12px;
+        }
+
+        #RequiredFieldValidator3 {
+            margin-left: 12px;
+        }
     </style>
     <script>
         function togglePaymentFields() {
@@ -177,12 +189,17 @@
                 </select>
             </div>
             <div id="card-details" class="card-details">
-                <label for="card-number">Card Number:</label>
-                <asp:TextBox ID="txtCardNumber" runat="server" CssClass="input-field" placeholder="1234 5678 9012 3456"></asp:TextBox>
-                <label for="expiry">Expiry Date:</label>
-                <asp:TextBox ID="txtExpiry" runat="server" CssClass="input-field" TextMode="Month"></asp:TextBox>
-                <label for="cvv">CVV:</label>
-                <asp:TextBox ID="txtCVV" runat="server" CssClass="input-field" placeholder="123"></asp:TextBox>
+                <label for="card-number">Card Number:</label><label for="payment"><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtCardNumber" ErrorMessage="Card number is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                </label>
+                &nbsp;<asp:TextBox ID="txtCardNumber" runat="server" CssClass="input-field" placeholder="1234 5678 9012 3456"></asp:TextBox>
+                <label for="expiry">
+                    Expiry Date:<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtExpiry" ErrorMessage="Expiry date is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                </label>
+                &nbsp;<asp:TextBox ID="txtExpiry" runat="server" CssClass="input-field" TextMode="Month"></asp:TextBox>
+                <label for="cvv">
+                    CVV:<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtCVV" ErrorMessage="CVV is required" ForeColor="#D72638"></asp:RequiredFieldValidator>
+                </label>
+                &nbsp;<asp:TextBox ID="txtCVV" runat="server" CssClass="input-field" placeholder="123"></asp:TextBox>
             </div>
             <div id="upi-details" class="upi-details">
                 <label for="upi-id">UPI ID:</label>

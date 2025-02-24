@@ -25,7 +25,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="navigation">
-     <div class="logo">CineGo</div>
+     <div class="logo">TicketFlicks</div>
      <div class="home-parent">
          <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
          <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>

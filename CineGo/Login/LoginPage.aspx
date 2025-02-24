@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Cinego</title>
+    <title>TicketFlicks</title>
     <link type="text/css" rel="stylesheet" href="LoginStyle.css" />
      <link rel="preconnect" href="https://fonts.googleapis.com" />
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
 <body style="height: 355px">
      <div class="parent">
      <div class="rectangle-div">
-        <p class="cinego">CineGo.</p>
+        <p class="cinego">TicketFlicks.</p>
     </div>
      <div class="parent-form">
          <div class="form-div">

@@ -1,27 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\",
+  "WorkspaceRootPath": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\movie1seats.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\homepage\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\homepage\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\cinego\\signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\signup\\signuppage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\xyz\\desktop\\githubclonee\\cinego\\cinego\\login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\confirmation\\confirm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\confirmation\\confirm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\confirmation\\confirm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\confirmation\\confirm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|c:\\users\\aryan\\documents\\github\\cinego\\cinego\\seatbooking\\batmanseatselect.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F45F800-F63D-4F98-A9A4-AF68D2FD1858}|CineGo\\CineGo.csproj|solutionrelative:cinego\\seatbooking\\batmanseatselect.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,77 +26,63 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
-=======
-          "SelectedChildIndex": 1,
->>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< Updated upstream
               "Title": "Movie1Seats.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
               "RelativeDocumentMoniker": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
               "RelativeToolTip": "CineGo\\SeatBooking\\Movie1Seats.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC/AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwAkAAAC9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:54:32.184Z",
-=======
-              "Title": "confirm.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\confirmation\\confirm.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\confirmation\\confirm.aspx.cs",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\confirmation\\confirm.aspx.cs",
-              "RelativeToolTip": "CineGo\\confirmation\\confirm.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T14:08:00.538Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< Updated upstream
-              "Title": "SignUpPage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\SignUp\\SignUpPage.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx.cs",
-              "RelativeToolTip": "CineGo\\SignUp\\SignUpPage.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:51:41.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginPage.aspx.cs",
-              "RelativeDocumentMoniker": "CineGo\\Login\\LoginPage.aspx.cs",
-              "ToolTip": "C:\\Users\\XYZ\\Desktop\\GithubClonee\\CineGo\\CineGo\\Login\\LoginPage.aspx.cs",
-              "RelativeToolTip": "CineGo\\Login\\LoginPage.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAADDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T16:48:46.913Z",
+              "WhenOpened": "2025-02-24T13:21:25.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-=======
-              "Title": "confirm.aspx",
-              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\confirmation\\confirm.aspx",
-              "RelativeDocumentMoniker": "CineGo\\confirmation\\confirm.aspx",
-              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\confirmation\\confirm.aspx",
-              "RelativeToolTip": "CineGo\\confirmation\\confirm.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-23T14:07:49.27Z",
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\HomePage\\HomePage.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\HomePage\\HomePage.aspx.cs",
+              "RelativeToolTip": "CineGo\\HomePage\\HomePage.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:20:07.282Z",
               "EditorCaption": ""
->>>>>>> Stashed changes
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BatmanSeatSelect.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "RelativeToolTip": "CineGo\\SeatBooking\\BatmanSeatSelect.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAC9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:17:51.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUpPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx.cs",
+              "RelativeDocumentMoniker": "CineGo\\SignUp\\SignUpPage.aspx.cs",
+              "ToolTip": "C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\SignUp\\SignUpPage.aspx.cs",
+              "RelativeToolTip": "CineGo\\SignUp\\SignUpPage.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAADBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:34:33.896Z",
+              "EditorCaption": ""
             }
           ]
         }
