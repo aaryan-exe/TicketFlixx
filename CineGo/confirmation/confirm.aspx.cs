@@ -22,7 +22,7 @@ namespace CineGo.confirmation
         protected void btnHome_Click(object sender, EventArgs e)
         {
             // Redirect back to the homepage
-            Response.Redirect("HomePage/HomePage.aspx");
+            Response.Redirect("/HomePage/HomePage.aspx");
         }
     }
 }
