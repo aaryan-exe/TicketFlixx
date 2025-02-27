@@ -12,47 +12,35 @@ namespace CineGo.Trailer
         string time = "";
         protected void Page_Load(object sender, EventArgs e)
 		{
-            
+            SessionLbl.Text = "" + Session["UserID"];
         }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedTheater = DropDownList1.SelectedValue;
+            Session["TheaterName"] = selectedTheater;
+        }
+
         protected void time1_Click1(object sender, EventArgs e)
         {
             TimeLabel.Text = "09:00 AM";
-            Session["time"] = TimeLabel.Text;
+            Session["Time"] = TimeLabel.Text;
         }
 
         protected void time2_Click1(object sender, EventArgs e)
         {
             TimeLabel.Text = "11:00 AM";
-            Session["time"] = TimeLabel.Text;
+            Session["Time"] = TimeLabel.Text;
         }
 
         protected void time3_Click1(object sender, EventArgs e)
         {
             TimeLabel.Text = "05:00 PM";
-            Session["time"] = TimeLabel.Text;
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-           TheaterLabel.Text = "IMAX";
-            Session["theater"] = TheaterLabel.Text;
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            TheaterLabel.Text = "PVR";
-            Session["theater"] = TheaterLabel.Text;
-        }
-
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            TheaterLabel.Text = "INOX";
-            Session["theater"] = TheaterLabel.Text;
+            Session["Time"] = TimeLabel.Text;
         }
 
         protected void BookButton_Click(object sender, EventArgs e)
         {
-            if(Session["theater"]!= null && Session["time"] != null)
+            if(Session["TheaterName"] != null && Session["time"] != null)
             {
                 Response.Redirect("/SeatBooking/Movie1Seats.aspx");
             }
@@ -60,6 +48,24 @@ namespace CineGo.Trailer
             {
                 WarningLabel.Text = "Please select both Time and theater";
             }
+        }
+
+        protected void Date1_Click(object sender, EventArgs e)
+        {
+            Session["Date"] = "3 March 2025";
+            DateLabel.Text = "3 March 2025";
+        }
+
+        protected void Date2_Click(object sender, EventArgs e)
+        {
+            Session["Date"] = "4 March 2025";
+            DateLabel.Text = "4 March 2025";
+        }
+
+        protected void Date3_Click(object sender, EventArgs e)
+        {
+            Session["Date"] = "5 March 2025";
+            DateLabel.Text = "5 March 2025";
         }
     }
 }

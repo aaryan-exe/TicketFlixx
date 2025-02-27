@@ -13,9 +13,11 @@ namespace CineGo.HomePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            SessionLbl.Text = "" + Session["UserID"];
             //if (Session["uname"] == null)
             //{
             //    Response.Redirect("\\SignUp\\SignUpPage.aspx");
+
             //}
         }
 
@@ -28,7 +30,7 @@ namespace CineGo.HomePage
 
         protected void btnInterstellar_Click(object sender, EventArgs e)
         {
-            Session["moviename"] = "Interstellar";
+            Session["MovieName"] = "Interstellar";
             Response.Redirect("/Trailer/InterstellarTrailer.aspx");
         }
 
@@ -36,7 +38,7 @@ namespace CineGo.HomePage
         protected void Batmanbtn_Click(object sender, EventArgs e)
         {
             Response.Redirect("/Trailer/Batman.aspx");
-            Session["moviename"] = "Batman: Dark Knight";
+            Session["MovieName"] = "Batman: Dark Knight";
         }
     }
 }

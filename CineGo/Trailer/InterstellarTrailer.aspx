@@ -21,6 +21,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineGo</title>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .date {
+            height: 104px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,9 +56,21 @@
                 </iframe>
             </div>
             <div class="timing-theater-container">
+
+                 <div class="image2">
+     <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
+         Date:
+         <asp:Label ID="DateLabel" runat="server"></asp:Label>
+     </p>
+
+     <asp:Button ID="Date1" runat="server" Text="3 March 2025" Width="90px" CssClass="date-button" OnClick="Date1_Click" />
+     <asp:Button ID="Date2" runat="server" Text="4 March 2025" Width="90px" CssClass="date-button" OnClick="Date2_Click" />
+     <asp:Button ID="Date3" runat="server" Text="5 March 2025" Width="90px" CssClass="date-button" OnClick="Date3_Click"/>
+ </div>
+
                 <div class="image2">
                     <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
-                        Timing
+                        Timing:
                         <asp:Label ID="TimeLabel" runat="server"></asp:Label>
                     </p>
 
@@ -64,21 +81,26 @@
 
                 <div class="image3">
                     <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
-                        Theater
+                        Theater:
                         <asp:Label ID="TheaterLabel" runat="server"></asp:Label>
                     </p>
+                    <asp:DropDownList ID="DropDownList1" runat="server" CssClass="styled-dropdown"
+                        AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                        <asp:ListItem Text="Select Theater" Value="" />
+                        <asp:ListItem Text="IMAX" Value="IMAX" />
+                        <asp:ListItem Text="PVR" Value="PVR" />
+                        <asp:ListItem Text="INOX" Value="INOX" />
+                        <asp:ListItem Text="Cinepolis" Value="Cinepolis" />
+                        <asp:ListItem Text="Carnival Cinemas" Value="Carnival" />
+                    </asp:DropDownList>
 
-                    <asp:Button ID="Button1" runat="server" Text="IMAX" Width="90px" CssClass="time-button" OnClick="Button1_Click" />
-                    <asp:Button ID="Button2" runat="server" Text="PVR" Width="90px" CssClass="time-button" OnClick="Button2_Click" />
-                    <asp:Button ID="Button3" runat="server" Text="INOX" Width="90px" CssClass="time-button" OnClick="Button3_Click" />
-                    <br />
-                    <br />
                     <br />
                     <asp:Label ID="WarningLabel" runat="server"></asp:Label>
                 </div>
-                                <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
-            </div>
+                <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
 
+            </div>
+            <asp:Label ID="SessionLbl" runat="server" Text="Label" ForeColor="#f3f3f3"></asp:Label>
     </form>
 </body>
 </html>

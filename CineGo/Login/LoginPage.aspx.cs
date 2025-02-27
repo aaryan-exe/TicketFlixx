@@ -20,22 +20,28 @@ namespace CineGo
             {
                 conn.Open();
 
-                string query = "SELECT COUNT(*) FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
+                string query = "SELECT UserID FROM userInfo WHERE Email = @Email AND UserPassword = @Password";
 
-                using (SqlCommand cmd = new SqlCommand(query, conn)) 
+                using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     // Add parameters
                     cmd.Parameters.AddWithValue("@Email", email);
                     cmd.Parameters.AddWithValue("@Password", password);
 
                     // Execute the query
-                    int count = (int)cmd.ExecuteScalar();
+                    object result = cmd.ExecuteScalar();
 
-                    if (count > 0)
+                    if (result != null)  // If UserID exists
                     {
+                        int userID = Convert.ToInt32(result);
+                        Session["UserID"] = userID;  // Store UserID in session
+                        Session["uemail"] = email;
+
                         OutputLabel.Text = "Login successful!";
-                        Session["uemail"] = emailTextBox.Text;
                         Response.Redirect("/HomePage/HomePage.aspx");
+                        Session["UserID"] = userID;
+                        Response.Write("<script>alert('UserID stored: " + userID + "');</script>");
+
                     }
                     else
                     {

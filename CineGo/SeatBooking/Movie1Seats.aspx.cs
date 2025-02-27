@@ -11,8 +11,35 @@ namespace CineGo.SeatBooking
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                MarkBookedSeats();
+            }
             TimeLabel.Text = "Time: " + Session["time"];
             TheaterLabel.Text = "Theater: " + Session["theater"];
+            SessionLbl.Text = "" + Session["UserID"];
+        }
+
+        private void MarkBookedSeats()
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT SeatID FROM InterstellarSeats WHERE Status = 'Booked'", conn))
+                {
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        int seatID = reader.GetInt32(0);
+                        Button seatButton = FindControl("Seat" + seatID) as Button;
+                        if (seatButton != null)
+                        {
+                            seatButton.CssClass += " selected"; // Mark booked seat
+                            seatButton.Enabled = false; // Disable booked seats
+                        }
+                    }
+                }
+            }
         }
 
         protected void Seat_Click(object sender, EventArgs e)
@@ -20,19 +47,22 @@ namespace CineGo.SeatBooking
             Button clickedButton = sender as Button;
             if (clickedButton != null)
             {
-                int seatID = int.Parse(clickedButton.Text); // Assume button text is seat number
-
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                int seatID;
+                if (int.TryParse(clickedButton.Text, out seatID)) // Extract Seat ID from button text
                 {
-                    conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = " + seatID, conn))
+                    using (SqlConnection conn = new SqlConnection(connectionString))
                     {
-                        cmd.ExecuteNonQuery();
+                        conn.Open();
+                        using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = @SeatID", conn))
+                        {
+                            cmd.Parameters.AddWithValue("@SeatID", seatID);
+                            cmd.ExecuteNonQuery();
+                        }
                     }
-                }
 
-                clickedButton.CssClass += " full"; // Change appearance
-                clickedButton.Enabled = false; // Disable after clicking
+                    clickedButton.CssClass += " full"; // Mark seat as selected
+                    clickedButton.Enabled = false; // Disable after booking
+                }
             }
         }
 

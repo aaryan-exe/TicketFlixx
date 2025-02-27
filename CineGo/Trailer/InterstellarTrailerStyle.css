@@ -210,3 +210,47 @@ about {
     color: red;
     font-size: 18px;
 }
+/* Dropdown Styling */
+.styled-dropdown {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    background-color: #1A1826; /* Dark background */
+    color: white;
+    border: 2px solid #7A63F9; /* Purple border */
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+    /* Hover Effect */
+    .styled-dropdown:hover {
+        background-color: #7A63F9; /* Purple Hover */
+        color: white;
+    }
+
+    /* Selected Option */
+    .styled-dropdown option {
+        background-color: #1A1826;
+        color: white;
+    }
+
+    /*Date css*/
+.date-button {
+    width:120px !important;
+    height: 50px;
+    margin: 5px;
+    background-color: #1A1826;
+    color: white;
+    border: #9F8EFF solid 1.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+    .date-button:hover {
+        background-color: #7A63F9;
+    }

@@ -207,6 +207,7 @@
             </div>
             <asp:Button ID="btnPay" runat="server" Text="Pay Securely" CssClass="pay-btn" OnClick="btnPay_Click" />
         </div>
+         <asp:Label ID="SessionLbl" runat="server" Text="Label" ForeColor="#f3f3f3"></asp:Label>
     </form>
 </body>
 </html>
