@@ -365,8 +365,6 @@ C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\roslyn\vbc.rsp
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\roslyn\VBCSCompiler.exe
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Antlr3.Runtime.dll
-C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Azure.Core.dll
-C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Azure.Identity.dll
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.Bcl.AsyncInterfaces.dll
@@ -410,8 +408,6 @@ C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\System.Threading.Tasks.Extensi
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\System.ValueTuple.dll
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\System.Web.Optimization.dll
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\WebGrease.dll
-C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Azure.Core.xml
-C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Azure.Identity.xml
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.Bcl.Cryptography.xml
 C:\Users\aryan\Documents\GitHub\CineGo\CineGo\bin\Microsoft.Data.SqlClient.xml
