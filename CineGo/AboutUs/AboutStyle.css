@@ -1,6 +1,6 @@
 ﻿
 .bricolage-grotesque-<uniquifier > {
-    font-family: "Bricolage Grotesque", serif;
+    font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -114,7 +114,7 @@ about {
 }
 
     .aboutme h1 {
-        font-family: "Bricolage Grotesque", serif;
+        font-family: "DM Sans", serif;
         font-size: 64px;
         color: #7A63F9;
         margin-bottom: 15px;

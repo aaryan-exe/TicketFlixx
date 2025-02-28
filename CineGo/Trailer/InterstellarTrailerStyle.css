@@ -4,7 +4,7 @@
     padding: 0; /* Remove extra space */
 }
 .bricolage-grotesque-<uniquifier > {
-    font-family: "Bricolage Grotesque", serif;
+    font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -124,14 +124,14 @@ about {
     /* Style text inside the container */
     .text-container2 h2 {
         margin: 0px 0px 8px 0px;
-        font-family: "Bricolage Grotesque", serif;
+        font-family: "DM Sans", serif;
         color: #A282FF;
         font-size: 28px;
     }
 
     .text-container2 p {
         margin: 0px 0px 0px 0px;
-        font-family: "Bricolage Grotesque", serif;
+        font-family: "DM Sans", serif;
         font-size: 20px;
         color: #ccc;
         width: 540px;

@@ -13,7 +13,6 @@ namespace CineGo.HomePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SessionLbl.Text = "" + Session["UserID"];
             //if (Session["uname"] == null)
             //{
             //    Response.Redirect("\\SignUp\\SignUpPage.aspx");

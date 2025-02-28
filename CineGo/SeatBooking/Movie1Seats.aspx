@@ -1,37 +1,20 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Movie1Seats.aspx.cs" Inherits="CineGo.SeatBooking.Movie1Seats" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Movie1Seats.aspx.cs" Inherits="CineGo.SeatBooking.Movie1Seats" MasterPageFile="~/Site1.master" %>
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link type="text/css" rel="stylesheet" href="Movie1Seat.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
-    <title>Movie Seat Booking</title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div class="navigation">
-            <div class="logo">CineGo</div>
-            <div class="home-parent">
-                <div class="home"><a href="/Lander/Lander.aspx">Home</a></div>
-                <div class="movies"><a href="/HomePage/HomePage.aspx">Movies</a></div>
-                <div class="movies"><a href="/AboutUs/About.aspx">About Us</a></div>
+
+        <div class="heading">
+            <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
+            <div class="info">
+                <asp:Label ID="TimeLabel" runat="server"></asp:Label>
+                <asp:Label ID="TheaterLabel" runat="server"></asp:Label>
             </div>
         </div>
-
-<div class="heading">
-    <asp:Label ID="MovieSeatName" runat="server">Interstellar</asp:Label>
-    <div class="info">
-        <asp:Label ID="TimeLabel" runat="server"></asp:Label>
-        <asp:Label ID="TheaterLabel" runat="server"></asp:Label>
-    </div>
-</div>
-
 
         <div class="container">
             <!-- Poster Section (Left) -->
@@ -52,7 +35,7 @@
                 <asp:Button ID="Seat9" runat="server" Text="9" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat10" runat="server" Text="10" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat11" runat="server" Text="11" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
-                <asp:Button ID="Seat12" runat="server" Text="12" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True"/>
+                <asp:Button ID="Seat12" runat="server" Text="12" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat13" runat="server" Text="13" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat14" runat="server" Text="14" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat15" runat="server" Text="15" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
@@ -80,12 +63,10 @@
                 <asp:Button ID="Seat37" runat="server" Text="37" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat38" runat="server" Text="38" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
                 <asp:Button ID="Seat39" runat="server" Text="39" CssClass="seat-button" OnClick="Seat_Click" AutoPostBack="True" />
-                <!-- Add remaining seats up to 60 -->
-                <asp:Button ID="BookButton" runat="server" Text="Book" CssClass="book-button" Width="120px" OnClick="BookButton_Click" />
 
+                <asp:Button ID="BookButton" runat="server" Text="Book" CssClass="book-button" Width="120px" OnClick="BookButton_Click" />
             </div>
         </div>
+
         <asp:Label ID="SessionLbl" runat="server" Text="Label" ForeColor="#f3f3f3"></asp:Label>
-    </form>
-</body>
-</html>
+</asp:Content>
