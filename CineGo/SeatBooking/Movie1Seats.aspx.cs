@@ -11,10 +11,7 @@ namespace CineGo.SeatBooking
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                MarkBookedSeats();
-            }
+            MarkBookedSeats();
             TimeLabel.Text = "Time: " + Session["time"];
             TheaterLabel.Text = "Theater: " + Session["theater"];
             SessionLbl.Text = "" + Session["UserID"];
@@ -34,8 +31,8 @@ namespace CineGo.SeatBooking
                         Button seatButton = FindControl("Seat" + seatID) as Button;
                         if (seatButton != null)
                         {
-                            seatButton.CssClass += " selected"; // Mark booked seat
-                            seatButton.Enabled = false; // Disable booked seats
+                            seatButton.CssClass += " full";
+                            seatButton.Enabled = false;
                         }
                     }
                 }
@@ -48,7 +45,7 @@ namespace CineGo.SeatBooking
             if (clickedButton != null)
             {
                 int seatID;
-                if (int.TryParse(clickedButton.Text, out seatID)) // Extract Seat ID from button text
+                if (int.TryParse(clickedButton.Text, out seatID))
                 {
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
@@ -59,9 +56,8 @@ namespace CineGo.SeatBooking
                             cmd.ExecuteNonQuery();
                         }
                     }
-
-                    clickedButton.CssClass += " full"; // Mark seat as selected
-                    clickedButton.Enabled = false; // Disable after booking
+                    clickedButton.CssClass += " selected";
+                    clickedButton.Enabled = false;
                 }
             }
         }

@@ -171,11 +171,11 @@
     }
 
     /* Booked Seat Styling */
-    .seat-button.booked {
+/*    .seat-button.booked {
         background-color: red !important;
         border: 2px solid darkred;
         cursor: not-allowed;
-    }
+    }*/
 
 
 /* Checkbox Container */
@@ -237,6 +237,11 @@
     }
 .full {
     background-color: red !important;
+    color: white;
+    pointer-events: none; /* Prevent clicking */
+}
+.selected {
+    background-color: #9F8EFF !important;
     color: white;
     pointer-events: none; /* Prevent clicking */
 }
