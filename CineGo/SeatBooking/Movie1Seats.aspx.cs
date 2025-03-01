@@ -31,6 +31,7 @@ namespace CineGo.SeatBooking
                         Button seatButton = FindControl("Seat" + seatID) as Button;
                         if (seatButton != null)
                         {
+                            seatButton.CssClass = "seat-button full";
                             seatButton.CssClass += " full";
                             seatButton.Enabled = false;
                         }
