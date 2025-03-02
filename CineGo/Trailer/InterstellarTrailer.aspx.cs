@@ -12,7 +12,6 @@ namespace CineGo.Trailer
         string time = "";
         protected void Page_Load(object sender, EventArgs e)
 		{
-            SessionLbl.Text = "" + Session["UserID"];
         }
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {

@@ -49,7 +49,7 @@ namespace CineGo
             }
 
             // Redirect to confirmation page after successful booking
-            Response.Redirect("/Confirmation/Confirm.aspx");
+            Response.Redirect("/Confirmation/Confirmation.aspx");
         }
     }
 }

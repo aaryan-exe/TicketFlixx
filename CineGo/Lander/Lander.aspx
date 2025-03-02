@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site1.master" AutoEventWireup="true" CodeBehind="Lander.aspx.cs" Inherits="CineGo.Lander.Lander" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <link type="text/css" rel="stylesheet" href="/Lander/Lander.css" />
     <!-- Hero Section -->
     <div class="hero-section">
         <h1>Experience Movies Like Never Before!</h1>

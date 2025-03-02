@@ -237,15 +237,16 @@ about {
     }
 
 .process2-container {
-    margin: 32px 0px 32px 0px;
     display: flex;
     align-items: center;
     background-color: #110F16;
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
-    width: 100%;
+/*    width: 100%;*/
+    flex-direction: row-reverse; /* Moves image to the right */
 }
+
 
 .text-container2 {
     background: #1A1826;
@@ -253,6 +254,7 @@ about {
     border-radius: 28px;
     max-width: 550px;
     border: solid #7A63F9 1px;
+    margin-left: 100px; /* Ensure same margin as other containers */
 }
 
     .text-container2 h2 {

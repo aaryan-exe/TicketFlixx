@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Movie1Seats.aspx.cs" Inherits="CineGo.SeatBooking.Movie1Seats" MasterPageFile="~/Site1.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link type="text/css" rel="stylesheet" href="Movie1Seat.css" />
+  <link type="text/css" rel="stylesheet" href="/Movie1Seat.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />

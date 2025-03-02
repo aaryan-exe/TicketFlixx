@@ -8,12 +8,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
      <link type="text/css" rel="stylesheet" href="/Lander/Lander.css" />
-    <link type="text/css" rel="stylesheet" href="HomePage/Home.css" />
-    <link type="text/css" rel="stylesheet" href="/AboutUs/About.css" />
+    <link type="text/css" rel="stylesheet" href="/HomePage/Home.css" />
+    <link type="text/css" rel="stylesheet" href="/AboutStyle.css" />
     <link type="text/css" rel="stylesheet" href="/Trailer/InterstellarTrailerStyle.css" />
      <link type="text/css" rel="stylesheet" href="/SeatBooking/Movie1Seat" />
-    <link type="text/css" rel="stylesheet" href="/PayMent/Payment.css" />
+   <link type="text/css" rel="stylesheet" href="/PayMent/Payment.css" />
     <link type="text/css" rel="stylesheet" href="/confirmation/Confirm.css" />
+    <link type="text/css" rel="stylesheet" href="/SeatBooking/Movie1Seat.css" />
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">

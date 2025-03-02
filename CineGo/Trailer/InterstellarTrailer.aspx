@@ -15,27 +15,23 @@
 </asp:Content>
 
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="trailer">
-        <div class="video"></div>
-        <div class="option"></div>
-    </div>
-
+<div class="container">
     <div class="process2-container">
-        
-            <iframe width="820" height="461" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=Hg9QbtG-8cZoqfKa"
+        <iframe width="820" height="461" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=Hg9QbtG-8cZoqfKa"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
-        </div>
-        <div class="text-container2">
+    </div>
+    
+    <div class="text-container2">
         <div class="timing-theater-container">
             <div class="image2">
                 <p class="para" style="color: #f4f4f4; font-size: 18px; font-family: 'DM Sans', sans-serif;">
                     Date: <asp:Label ID="DateLabel" runat="server"></asp:Label>
                 </p>
-                <asp:Button ID="Date1" runat="server" Text="3 March 2025" Width="90px" CssClass="date-button" OnClick="Date1_Click" />
-                <asp:Button ID="Date2" runat="server" Text="4 March 2025" Width="90px" CssClass="date-button" OnClick="Date2_Click" />
-                <asp:Button ID="Date3" runat="server" Text="5 March 2025" Width="90px" CssClass="date-button" OnClick="Date3_Click" />
+                <asp:Button ID="Date1" runat="server" Text="3 March" Width="90px" CssClass="date-button" OnClick="Date1_Click" />
+                <asp:Button ID="Date2" runat="server" Text="4 March" Width="90px" CssClass="date-button" OnClick="Date2_Click" />
+                <asp:Button ID="Date3" runat="server" Text="5 March" Width="90px" CssClass="date-button" OnClick="Date3_Click" />
             </div>
 
             <div class="image2">
@@ -66,6 +62,7 @@
 
             <asp:Button ID="BookButton" runat="server" Text="Next" OnClick="BookButton_Click" />
         </div>
-            </div>
-        <asp:Label ID="SessionLbl" runat="server" Text="Label" ForeColor="#f3f3f3"></asp:Label>
+    </div>
+</div>
+
 </asp:Content>

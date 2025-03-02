@@ -3,7 +3,7 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="CineGo.HomePage.WebForm1" MasterPageFile="~/Site1.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="HomePage/Home.css" />
     <title>TicketFlicks</title>
 </asp:Content>
 

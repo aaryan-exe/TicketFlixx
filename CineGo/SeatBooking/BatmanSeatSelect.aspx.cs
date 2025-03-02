@@ -9,7 +9,7 @@ namespace CineGo.SeatBooking
 {
 	public partial class BatmanSeatSelect : System.Web.UI.Page
 	{
-        private string connectionString = @"C:\Users\XYZ\Desktop\GithubClonee\CineGo\CineGo\App_Data\Database1_log.ldf";
+        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aryan\Documents\GitHub\CineGo\CineGo\App_Data\Database1.mdf;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {

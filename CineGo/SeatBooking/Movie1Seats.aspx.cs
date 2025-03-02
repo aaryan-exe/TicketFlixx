@@ -11,7 +11,10 @@ namespace CineGo.SeatBooking
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            MarkBookedSeats();
+            if (!IsPostBack)
+            {
+                MarkBookedSeats();
+            }
             TimeLabel.Text = "Time: " + Session["time"];
             TheaterLabel.Text = "Theater: " + Session["theater"];
             SessionLbl.Text = "" + Session["UserID"];
@@ -22,18 +25,22 @@ namespace CineGo.SeatBooking
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("SELECT SeatID FROM InterstellarSeats WHERE Status = 'Booked'", conn))
+                using (SqlCommand cmd = new SqlCommand("SELECT SeatNumber FROM InterstellarSeats WHERE Status = 'Booked'", conn))
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        int seatID = reader.GetInt32(0);
-                        Button seatButton = FindControl("Seat" + seatID) as Button;
+                        string seatNumber = reader["SeatNumber"].ToString();
+                        Button seatButton = FindControl("Seat" + seatNumber) as Button;
                         if (seatButton != null)
                         {
-                            seatButton.CssClass = "seat-button full";
                             seatButton.CssClass += " full";
                             seatButton.Enabled = false;
+                        }
+                        else
+                        {
+                            // Debugging statement
+                            System.Diagnostics.Debug.WriteLine("Button not found for SeatNumber: " + seatNumber);
                         }
                     }
                 }
@@ -45,21 +52,19 @@ namespace CineGo.SeatBooking
             Button clickedButton = sender as Button;
             if (clickedButton != null)
             {
-                int seatID;
-                if (int.TryParse(clickedButton.Text, out seatID))
+                string seatNumber = clickedButton.Text;
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked', UserID = @UserID WHERE SeatNumber = @SeatNumber", conn))
                     {
-                        conn.Open();
-                        using (SqlCommand cmd = new SqlCommand("UPDATE InterstellarSeats SET Status = 'Booked' WHERE SeatID = @SeatID", conn))
-                        {
-                            cmd.Parameters.AddWithValue("@SeatID", seatID);
-                            cmd.ExecuteNonQuery();
-                        }
+                        cmd.Parameters.AddWithValue("@SeatNumber", seatNumber);
+                        cmd.Parameters.AddWithValue("@UserID", Session["UserID"]);
+                        cmd.ExecuteNonQuery();
                     }
-                    clickedButton.CssClass += " selected";
-                    clickedButton.Enabled = false;
                 }
+                clickedButton.CssClass += " full";
+                clickedButton.Enabled = false;
             }
         }
 
