@@ -1,0 +1,38 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.ticket-container {
+    margin-top:90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ticket-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+    .ticket-card:hover {
+        transform: scale(1.05);
+    }
+
+.ticket-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7A63F9;
+}
+
+.ticket-info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ddd;
+}
