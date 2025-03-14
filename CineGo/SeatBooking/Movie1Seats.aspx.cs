@@ -7,7 +7,7 @@ namespace CineGo.SeatBooking
 {
     public partial class Movie1Seats : System.Web.UI.Page
     {
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aryan\Documents\GitHub\TicketFlixx\CineGo\App_Data\Database1.mdf;Integrated Security=True";
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aryan\Desktop\TicketFlixx\CineGo\App_Data\Database1.mdf;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {

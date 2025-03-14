@@ -6,7 +6,7 @@ namespace CineGo
 {
     public partial class WebForm4 : System.Web.UI.Page
     {
-        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aryan\Documents\GitHub\TicketFlixx\CineGo\App_Data\Database1.mdf;Integrated Security=True";
+        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aryan\Desktop\TicketFlixx\CineGo\App_Data\Database1.mdf;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {

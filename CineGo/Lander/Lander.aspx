@@ -5,7 +5,7 @@
     <div class="hero-section">
         <h1>Experience Movies Like Never Before!</h1>
         <p>Book tickets for the latest releases with ease.</p>
-        <asp:Button runat="server" Text="Explore" Width="140px" CssClass="custom-button" />
+        <asp:Button runat="server" Text="Explore" Width="140px" CssClass="custom-button" OnClick="Unnamed1_Click" />
     </div>
 
     <div class="Seamless">

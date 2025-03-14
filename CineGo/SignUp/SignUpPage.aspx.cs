@@ -15,7 +15,7 @@ namespace CineGo
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Documents\\GitHub\\CineGo\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Desktop\\TicketFlixx\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
             string name = NameTextBox.Text;
             string email = EmailTextBox.Text;
             string password = PasswordTextBox.Text;

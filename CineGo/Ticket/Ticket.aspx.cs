@@ -34,7 +34,7 @@ namespace CineGo
             }
 
             int userID = Convert.ToInt32(Session["UserID"]);
-            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Documents\\GitHub\\TicketFlixx\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
+            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\aryan\\Desktop\\TicketFlixx\\CineGo\\App_Data\\Database1.mdf;Integrated Security=True";
 
             using (SqlConnection conn = new SqlConnection(connString))
             {

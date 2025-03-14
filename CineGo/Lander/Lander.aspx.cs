@@ -18,5 +18,10 @@ namespace CineGo.Lander
         {
 			Response.Redirect("\\SignUp\\SignUpPage.aspx");
         }
+
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/HomePage/HomePage.aspx");
+        }
     }
 }
